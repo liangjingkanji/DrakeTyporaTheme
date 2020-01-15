@@ -500,3 +500,11 @@ span.cm-comment {
     text-overflow:ellipsis;
     white-space:nowrap
 }
+
+.outline-item {
+    font-size: 12px
+}
+
+.sidebar-tab {
+    font-size: 12px
+}
