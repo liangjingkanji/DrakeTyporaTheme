@@ -65,6 +65,7 @@ h6 {
     font-weight: bold;
     line-height: 1.4;
     cursor: text;
+    color: #9a3d32;
 }
 
 h1:hover a.anchor,
@@ -242,7 +243,7 @@ ol:last-child {
 }
 
 blockquote {
-    border-left: 3px solid #fe5f55;
+    border-left: 3px solid #68b587;
     font-weight: bold;
     padding: 0px 8px;
 }
@@ -441,11 +442,11 @@ table tr td:last-child {
     background-color: #f8f8f8;
 }
 
-#typora-quick-open-item {
-    background-color: #FAFAFA;
-    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
-    border-style: solid;
-    border-width: 1px;
+.typora-quick-open-item {
+	font-size: 12px !important;
+	height: 48px; 
+    padding-left: 8px;
+    padding-top: 4px;
 }
 
 #md-notification:before {
@@ -474,7 +475,7 @@ footer {
     background-color: #fafafa;
     font-size: 1em;
     background-color: var(--side-bar-bg-color);
-}
+} 
 
 .md-lang {
     color: #b4654d;
@@ -491,8 +492,37 @@ span.cm-comment {
     color: #808080 !important;
 }
 
+.ty-quick-open-category.ty-has-prev .ty-quick-open-category-title {
+    border-top:none;
+}
+
 .file-list-item-summary {
     font-family: "JetBrains Mono";
+}
+
+#typora-quick-open-input {
+	margin: 8px;
+	box-shadow:none;
+	border-radius:2px;
+}
+
+#typora-quick-open-input input {
+	font-size: 12px;
+	box-shadow:none;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 32px;
+	max-height: 32px;
+}
+
+.modal-dialog#typora-quick-open{
+	border-radius: 2px;
+}
+
+.ty-quick-open-category-title {
+	padding-left: 8px;
+	color: #BEBEBE;
 }
 
 .typora-quick-open-item-path {
