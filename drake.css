@@ -243,8 +243,8 @@ ol:last-child {
 }
 
 blockquote {
-    border-left: 3px solid #68b587;
-    font-weight: bold;
+    border-left: 4px solid #000000ff;
+    color: #000000ff;
     padding: 0px 8px;
 }
 
