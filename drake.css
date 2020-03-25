@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    font-family: "JetBrains Mono" !important;
-    color: #1f252a;
+    font-family: "JetBrains Mono", Menlo, Consolas !important;
+    color: #304455;
     -webkit-font-smoothing: auto;
     line-height: 1.6rem;
     letter-spacing: 0;
@@ -30,10 +30,6 @@ img { zoom: 50%; }
     word-spacing: .05rem;
 }
 
-#write ol li {
-    text-indent: 0.5rem;
-}
-
 #write > ul:first-child,
 #write > ol:first-child {
     margin-top: 30px;
@@ -48,7 +44,7 @@ body > *:last-child {
 }
 
 a {
-    color: #1A73E8;
+    color: #42b983;
     padding: 0 2px;
 }
 
@@ -64,7 +60,7 @@ h6 {
     font-weight: bold;
     line-height: 1.4;
     cursor: text;
-    color: #9a3d32;
+    color: #273849;
 }
 
 h1:hover a.anchor,
@@ -136,6 +132,7 @@ h2 {
     font-size: 1.75rem;
     line-height: 1.225;
     margin-top: 4rem;
+    padding-bottom: 8px;
 }
 
 h3 {
@@ -242,9 +239,34 @@ ol:last-child {
 }
 
 blockquote {
-    border-left: 4px solid #000000ff;
-    color: #000000ff;
-    padding: 0px 8px;
+    color: #304455;
+    border-radius: 4px;
+    padding: 10px 16px;
+    background-color: #f8f8f8;
+    position: relative;
+    border-left: none;
+}
+
+blockquote:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 4px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color:#68b587;
+    border-radius: 2px;
+}
+
+#write strong {
+    color: #486491;
+    line-height: 1;
+    padding: 6px 10px;
+    display: inline-block;
+    font-weight: bold;
+    background-color: #e7ecf3;
+    border-radius: 1rem;
 }
 
 table {
@@ -289,10 +311,6 @@ table tr td:last-child {
     margin-bottom: 0;
 }
 
-#write strong {
-    padding: 0 1px;
-}
-
 #write em {
     padding: 0 5px 0 2px;
 }
@@ -309,11 +327,11 @@ table tr td:last-child {
     border: 1px solid #F4F4F4;
     -webkit-font-smoothing: initial;
     margin: 0.8rem 0 !important;
-    padding: 0.3rem 0 !important;
-    line-height: 1.43rem;
-    background-color: #F8F8F8 !important;
-    border-radius: 2px;
-    font-family: "JetBrains Mono" !important;
+    padding: 0.4rem 0 !important;
+    line-height: 1.6rem;
+    background-color: #2b2b2b !important;
+    border-radius: 4px;
+    font-family: "JetBrains Mono", Menlo, Consolas !important;
     word-wrap: normal;
 }
 
@@ -321,12 +339,13 @@ table tr td:last-child {
     padding-left: 12px;
 }
 
+/*code snippet*/
 #write code, tt {
     margin: 0 2px;
-    padding: 2px 4px;
     border-radius: 2px;
-    font-family: "JetBrains Mono" !important;
-    color: #39751f;
+    font-family: "JetBrains Mono", Menlo, Consolas !important;
+    color: #d63200;
+    padding: 2px 4px;
     background-color: #f8f8f8;
 }
 
@@ -378,7 +397,9 @@ table tr td:last-child {
 }
 
 .md-fences {
-    background-color: #f8f8f8;
+    background-color: #2b2b2b;
+    color: #A9B7C6;
+    border: none;
 }
 
 #write pre.md-meta-block {
@@ -418,7 +439,7 @@ table tr td:last-child {
 
 .md-image > .md-meta {
     border-radius: 3px;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", Menlo, Consolas;
     padding: 2px 0 0 4px;
     color: inherit;
 }
@@ -462,7 +483,7 @@ header,
 .context-menu,
 .megamenu-content,
 footer {
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", Menlo, Consolas;
 }
 
 .file-node-content:hover .file-node-icon,
@@ -496,7 +517,7 @@ span.cm-comment {
 }
 
 .file-list-item-summary {
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", Menlo, Consolas;
 }
 
 #typora-quick-open-input {
@@ -533,7 +554,61 @@ span.cm-comment {
 .outline-item {
     font-size: 12px
 }
-
+B
 .sidebar-tab {
     font-size: 12px
 }
+
+/**
+    Name: IntelliJ IDEA darcula theme
+    From IntelliJ IDEA by JetBrains
+ */
+.cm-s-inner  { font-family: "JetBrains Mono", Menlo, Consolas; }
+.cm-s-inner.CodeMirror { background: #2B2B2B; color: #A9B7C6; }
+
+.cm-s-inner span.cm-meta { color: #BBB529; }
+.cm-s-inner span.cm-number { color: #6897BB; }
+.cm-s-inner span.cm-keyword { color: #CC7832; }
+.cm-s-inner span.cm-def { color: #FFD760; }
+.cm-s-inner span.cm-variable { color: #A9B7C6; }
+.cm-s-inner span.cm-variable-2 { color: #A9B7C6; }
+.cm-s-inner span.cm-variable-3 { color: #9876AA; }
+.cm-s-inner span.cm-type { color: #AABBCC; }
+.cm-s-inner span.cm-property { color: #FFC66D; }
+.cm-s-inner span.cm-operator { color: #A9B7C6; }
+.cm-s-inner span.cm-string { color: #6A8759; }
+.cm-s-inner span.cm-string-2 { color: #6A8759; }
+.cm-s-inner span.cm-comment { color: #61A151; }
+.cm-s-inner span.cm-link { color: #CC7832; }
+.cm-s-inner span.cm-atom { color: #CC7832; }
+.cm-s-inner span.cm-error { color: #BC3F3C; }
+.cm-s-inner span.cm-tag { color: #E8BF6A; }
+.cm-s-inner span.cm-attribute { color: #9876AA; }
+.cm-s-inner span.cm-qualifier { color: #6A8759; }
+.cm-s-inner span.cm-bracket { color: #E8BF6A; }
+.cm-s-inner span.cm-builtin { color: #FF9E59; }
+.cm-s-inner span.cm-special { color: #FF9E59; }
+.cm-s-inner span.cm-matchhighlight { color: #FFFFFF; background-color: rgba(50, 89, 48, .7); font-weight: normal;}
+.cm-s-inner span.cm-searching { color: #FFFFFF; background-color: rgba(61, 115, 59, .7); font-weight: normal;}
+
+.cm-s-inner .CodeMirror-cursor { border-left: 1px solid #A9B7C6; }
+.cm-s-inner .CodeMirror-gutters { background: #313335; border-right: 1px solid #313335; }
+.cm-s-inner .CodeMirror-guttermarker { color: #FFEE80; }
+.cm-s-inner .CodeMirror-guttermarker-subtle { color: #D0D0D0; }
+.cm-s-inner .CodeMirrir-linenumber { color: #606366; }
+.cm-s-inner .CodeMirror-matchingbracket { background-color: #3B514D; color: #FFEF28 !important; }
+
+.cm-s-inner div.CodeMirror-selected { background: #214283; }
+
+.CodeMirror-hints.drake {
+  font-family: "JetBrains Mono", Menlo, Consolas;
+  color: #9C9E9E;
+  background-color: #3B3E3F !important;
+}
+
+.CodeMirror-hints.drake .CodeMirror-hint-active {
+  background-color: #494D4E !important;
+  color: #ffffff !important;
+}
+
+.cm-s-inner div.CodeMirror-cursor { border-left: 1px solid #A9B7C6; }
