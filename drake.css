@@ -323,6 +323,7 @@ table tr td:last-child {
     border-right: none;
 }
 
+/*code block*/
 #write .md-fences {
     border: 1px solid #F4F4F4;
     -webkit-font-smoothing: initial;
@@ -345,8 +346,6 @@ table tr td:last-child {
     border-radius: 2px;
     font-family: "JetBrains Mono", Menlo, Consolas !important;
     color: #d63200;
-    padding: 2px 4px;
-    background-color: #f8f8f8;
 }
 
 #write .md-footnote {
@@ -560,6 +559,7 @@ B
 }
 
 /**
+    code render
     Name: IntelliJ IDEA darcula theme
     From IntelliJ IDEA by JetBrains
  */
