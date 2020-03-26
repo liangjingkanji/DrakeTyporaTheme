@@ -1,6 +1,7 @@
 :root {
     --side-bar-bg-color: #fff;
     --control-text-color: #777;
+
 }
 
 html {
@@ -598,17 +599,6 @@ B
 .cm-s-inner .CodeMirrir-linenumber { color: #606366; }
 .cm-s-inner .CodeMirror-matchingbracket { background-color: #3B514D; color: #FFEF28 !important; }
 
-.cm-s-inner div.CodeMirror-selected { background: #214283; }
+.CodeMirror-selected, .CodeMirror-selectedtext { background: #214283 !important; }
 
-.CodeMirror-hints.drake {
-  font-family: "JetBrains Mono", Menlo, Consolas;
-  color: #9C9E9E;
-  background-color: #3B3E3F !important;
-}
-
-.CodeMirror-hints.drake .CodeMirror-hint-active {
-  background-color: #494D4E !important;
-  color: #ffffff !important;
-}
-
-.cm-s-inner div.CodeMirror-cursor { border-left: 1px solid #A9B7C6; }
+.cm-s-inner div.CodeMirror-cursor { border-left: 1px solid #ffffff; }
