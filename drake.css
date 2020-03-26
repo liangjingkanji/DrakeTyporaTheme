@@ -44,7 +44,7 @@ body > *:last-child {
 }
 
 a {
-    color: #42b983;
+    color: #323edd;
     padding: 0 2px;
 }
 
@@ -583,6 +583,7 @@ B
 .cm-s-inner span.cm-atom { color: #CC7832; }
 .cm-s-inner span.cm-error { color: #BC3F3C; }
 .cm-s-inner span.cm-tag { color: #E8BF6A; }
+.cm-s-inner span.cm-quote { color: #a6e22e; }
 .cm-s-inner span.cm-attribute { color: #9876AA; }
 .cm-s-inner span.cm-qualifier { color: #6A8759; }
 .cm-s-inner span.cm-bracket { color: #E8BF6A; }
