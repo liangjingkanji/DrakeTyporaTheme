@@ -629,6 +629,12 @@ div.code-tooltip-content {
     position:absolute;
 }
 
+.md-def-name:before {
+    content: "";
+    color: #304455;
+    position:absolute;
+}
+
 /**
     code render
     Name: IntelliJ IDEA darcula theme
