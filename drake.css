@@ -134,6 +134,7 @@ h2 {
     line-height: 1.225;
     margin-top: 4rem;
     padding-bottom: 8px;
+    border-bottom: 1px solid #eaecef;
 }
 
 h3 {
