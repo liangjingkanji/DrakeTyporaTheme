@@ -330,7 +330,7 @@ table tr td:last-child {
 #write .md-fences {
     -webkit-font-smoothing: initial;
     margin: 0.8rem 0 !important;
-    padding: 0.4rem 0 !important;
+    padding: 0.5rem !important;
     line-height: 1.6rem;
     border-radius: 4px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
