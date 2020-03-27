@@ -569,12 +569,7 @@ span.cm-comment {
 }
 #write .md-footnote:after {
     content: "]";
-} 
-
-
-/*sup.md-footnote {
-    padding-left: 0;
-}*/
+}
 
 /*footnotes title*/
 span.md-def-name {
