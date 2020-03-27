@@ -45,7 +45,7 @@ body > *:last-child {
 }
 
 a {
-    color: #323edd;
+    color: #d63200;
     padding: 0 2px;
 }
 
@@ -248,6 +248,7 @@ blockquote {
     border-left: none;
 }
 
+/*quote block*/
 blockquote:before {
     display: block;
     position: absolute;
@@ -256,7 +257,7 @@ blockquote:before {
     left: 0;
     top: 0;
     height: 100%;
-    background-color:#68b587;
+    background-color:#304455;
     border-radius: 2px;
 }
 
@@ -553,21 +554,36 @@ span.cm-comment {
     font-size: 12px
 }
 
-/*footnotes*/
+/*footnotes mark*/
 #write .md-footnote {
     background-color: inherit;
-    color: #323edd;
+    color: #d63200;
     font-size: 0.9rem;
     border-radius: 0.9rem;
-    padding: 2px 6px;
+    padding-left: 0;
 }
 
+#write .md-footnote:before {
+    content: "[";
+}
+#write .md-footnote:after {
+    content: "]";
+} 
+
+
+/*sup.md-footnote {
+    padding-left: 0;
+}*/
+
+/*footnotes title*/
 span.md-def-name {
-    padding-right: 2ch;
-    padding-left: 1ch;
+    padding-right: 3ch;
+    padding-left: 0;
     position:relative;
+    font-weight: normal;
 }
 
+/*footnotes desc*/
 .footnotes {
     font-size: 1rem;
     font-weight: normal;
@@ -589,21 +605,27 @@ span.md-def-name {
     background-color: inherit;
 }
 
+.code-tooltip-content a {
+    color: #FFD760;
+}
+
 div.code-tooltip-content {
     box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
+.footnotes {
+    opacity:1;
+}
+
 .md-def-name:after {
-    content: "]:";
+    content: ". ^";
     color: #304455;
-    font-weight: bold !important;
 }
 
 .md-def-footnote .md-def-name:before {
-    content: "[";
+    content: "";
     color: #304455;
     position:absolute;
-    font-weight: bold !important;
 }
 
 /**

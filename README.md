@@ -50,17 +50,11 @@ class MultiTypeFragment : Fragment() {
 
 
 
-代码片段可以作为代码或者高亮显示`typora_theme_drake`
-
-这是一个[超链接Google谷歌](https://github.com/liangjingkanji)
+代码片段可以作为代码或者高亮显示`typora_theme_drake`, 访问[主页](https://github.com/liangjingkanji), 脚注样式示例[^1];
 
 
 
-脚注样式示例[^Drake]
-
-
-
-[^Drake]: 脚注一般情况不常用, 哈哈, `_drake`	
+[^1]: 一般情况不推荐使用脚注, 因为大部分`Markdown`编辑器没有脚注渲染, 例如[GitHub](https://github.com/liangjingkanji)就不支持脚注语法
 
 ## 安装方式
 
@@ -70,5 +64,5 @@ class MultiTypeFragment : Fragment() {
 
 ## 截图预览
 
-![image-20200108132629294](https://tva1.sinaimg.cn/large/00831rSTgy1gd8mqxk4wlj30u017q17e.jpg)
+![](https://tva1.sinaimg.cn/large/00831rSTgy1gd8t3vuc87j30u013ldog.jpg)
 
