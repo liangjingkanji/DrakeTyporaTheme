@@ -630,6 +630,10 @@ div.code-tooltip-content {
     position:absolute;
 }
 
+.CodeMirror-scroll::-webkit-scrollbar {
+    display: none;
+}
+
 /**
     code render
     Name: IntelliJ IDEA darcula theme
