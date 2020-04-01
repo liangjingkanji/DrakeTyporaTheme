@@ -18,7 +18,9 @@ body {
     overflow-x: hidden;
 }
 
-img { zoom: 50%; }
+img {
+	zoom: 50%; 
+}
 
 #write {
     max-width: 860px;
@@ -328,7 +330,7 @@ table tr td:last-child {
 
 /*code block*/
 #write .md-fences {
-    -webkit-font-smoothing: initial;
+    /*font-weight: 500 !important;*/
     margin: 0.8rem 0 !important;
     padding: 0.5rem !important;
     line-height: 1.6rem;
@@ -336,6 +338,9 @@ table tr td:last-child {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     font-family: inherit !important;
     word-wrap: normal;
+    background-color: #2b2b2b;
+    color: #A9B7C6;
+    border: none;
 }
 
 #write .CodeMirror-wrap .CodeMirror-code pre {
@@ -390,12 +395,6 @@ table tr td:last-child {
     pre {
         word-wrap: break-word;
     }
-}
-
-.md-fences {
-    background-color: #2b2b2b;
-    color: #A9B7C6;
-    border: none;
 }
 
 #write pre.md-meta-block {
@@ -584,7 +583,6 @@ span.md-def-name {
     font-size: 1rem;
     font-weight: normal;
     color: #304455;
-    -webkit-font-smoothing: auto;
     position:relative;
 }
 
