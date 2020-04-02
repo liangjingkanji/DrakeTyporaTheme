@@ -20,10 +20,11 @@ body {
 
 img {
 	zoom: 50%; 
+    border-radius: 8px;
 }
 
 #write {
-    max-width: 860px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px 30px 100px;
 }
@@ -134,8 +135,8 @@ h1 {
 h2 {
     font-size: 1.75rem;
     line-height: 1.225;
-    margin-top: 4rem;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
     border-bottom: 1px solid #eaecef;
 }
 
@@ -330,12 +331,10 @@ table tr td:last-child {
 
 /*code block*/
 #write .md-fences {
-    /*font-weight: 500 !important;*/
+    font-size: 1rem;
     margin: 0.8rem 0 !important;
     padding: 0.5rem !important;
-    line-height: 1.6rem;
     border-radius: 4px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     font-family: inherit !important;
     word-wrap: normal;
     background-color: #2b2b2b;
