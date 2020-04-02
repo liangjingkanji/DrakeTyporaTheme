@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 body {
@@ -384,7 +384,7 @@ table tr td:last-child {
 
 @media print {
     html {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     table,
@@ -458,7 +458,7 @@ table tr td:last-child {
 }
 
 .typora-quick-open-item {
-	font-size: 12px !important;
+	font-size: 1rem !important;
 	height: 48px; 
     padding-left: 8px;
     padding-top: 4px;
@@ -488,7 +488,7 @@ footer {
 
 .mac-seamless-mode #typora-sidebar {
     background-color: #fafafa;
-    font-size: 1em;
+    font-size: 1rem;
     background-color: var(--side-bar-bg-color);
 } 
 
@@ -522,7 +522,7 @@ span.cm-comment {
 }
 
 #typora-quick-open-input input {
-	font-size: 12px;
+	font-size: 1rem;
 	box-shadow:none;
 	padding-top: 2px;
 	padding-left: 10px;
@@ -547,11 +547,11 @@ span.cm-comment {
 }
 
 .outline-item {
-    font-size: 12px
+    font-size: 1rem;
 }
 
 .sidebar-tab {
-    font-size: 12px
+    font-size: 1rem;
 }
 
 /*footnotes mark*/
