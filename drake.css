@@ -348,7 +348,7 @@ table tr td:last-child {
 
 /*code snippet*/
 #write code, tt {
-    margin: 0 4px;
+    margin: 0 2px;
     border-radius: 2px;
     font-family: initial !important;
     color: #d63200;
@@ -361,7 +361,6 @@ table tr td:last-child {
     padding: 2px 4px;
     margin: 0 2px;
     color: #222;
-    font-weight: 500;
 }
 
 #write del {
