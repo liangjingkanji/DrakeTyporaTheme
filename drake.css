@@ -1,7 +1,6 @@
 :root {
     --side-bar-bg-color: #fff;
     --control-text-color: #777;
-
 }
 
 html {
@@ -110,18 +109,6 @@ h6 code {
 h2 a,
 h3 a {
     color: #34495e;
-}
-
-h3 a:before {
-    content: '#';
-    color: #42b983;
-    position: absolute;;
-    left: -0.7em;
-    margin-top: -0.05em;
-    padding-right: 0.5em;
-    font-size: 1.2em;
-    line-height: 1;
-    font-weight: bold;
 }
 
 h1 {
@@ -266,13 +253,10 @@ blockquote:before {
 }
 
 #write strong {
-    color: #486491;
-    line-height: 1;
-    padding: 6px 10px;
+    color: #000000;
     display: inline-block;
     font-weight: bold;
-    background-color: #e7ecf3;
-    border-radius: 1rem;
+    line-height: 1;
 }
 
 table {
