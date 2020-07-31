@@ -315,7 +315,6 @@ table tr td:last-child {
 /*code block*/
 #write .md-fences {
     font-size: 1rem;
-    margin: 0.8rem 0 !important;
     padding: 0.5rem !important;
     border-radius: 4px;
     font-family: inherit !important;
@@ -325,9 +324,10 @@ table tr td:last-child {
     border: none;
 }
 
-#write .CodeMirror-wrap .CodeMirror-code pre {
+/*block boder*/
+/*#write .CodeMirror-wrap .CodeMirror-code pre {
     padding-left: 12px;
-}
+}*/
 
 /*code snippet*/
 #write code, tt {
