@@ -233,7 +233,7 @@ blockquote {
     color: #304455;
     border-radius: 4px;
     padding: 10px 16px;
-    background-color: #f8f8f8;
+    background-color: #fdefee;
     position: relative;
     border-left: none;
 }
@@ -247,15 +247,19 @@ blockquote:before {
     left: 0;
     top: 0;
     height: 100%;
-    background-color:#304455;
+    background-color:#e95f59;
     border-radius: 2px;
 }
 
 #write strong {
-    color: #000000;
+    color: #273849;
+    line-height: 1;
     display: inline-block;
     font-weight: bold;
-    line-height: 1;
+    padding: 6px 6px;
+    margin: 0px 2px;
+    background-color: #e7ecf3;
+    border-radius: 3px;
 }
 
 table {

@@ -3,7 +3,7 @@
 
 
 1. 截图使用的字体: [JetBrainsMono](https://www.jetbrains.com/lp/mono/), 安装即可
-2. 代码渲染配置来自`JetBrains Darcula`
+2. 代码**渲染配置**来自`JetBrains Darcula`
 3. 脚注样式来自于`维基百科`
 
 
@@ -20,7 +20,38 @@
 
 
 
+**加粗效果**
+
+```kotlin
+override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    setContentView(R.layout.activity_main)
+
+    state.onRefresh {
+        // 一般在这里进行网络请求
+        thread {
+            Thread.sleep(2000)
+            showContent()
+        }
+    }.showLoading()
+}
+```
+
+
+
+这里演示脚注内容[^2]
+
+
+
+> 推荐用于醒目标注内容
+
+
+
+[^2]: 脚注内容, 一般不使用脚注因为很多文档不支持Markdown脚注渲染(例如GitHub不支持脚注)
+
 ## 截图预览
 
-![](https://tva1.sinaimg.cn/large/00831rSTgy1gd8t3vuc87j30u013ldog.jpg)
+![image-20200802050022271](https://i.imgur.com/jLr8OyT.png)
+
+
 
