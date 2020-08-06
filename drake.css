@@ -1,6 +1,7 @@
 :root {
     --side-bar-bg-color: #fff;
     --control-text-color: #777;
+    --active-file-border-color: #e95f59;
 }
 
 html {
@@ -615,6 +616,25 @@ div.code-tooltip-content {
 
 .CodeMirror-scroll::-webkit-scrollbar {
     display: none;
+}
+
+.file-list-item-summary {
+    font-size: 1em;
+}
+
+.pin-outline #outline-content .outline-active strong, .pin-outline .outline-active {
+    font-weight: normal;
+}
+
+.outline-active {
+    padding: 0px 4px;
+    background-color: #e95f59;
+    border-radius: 2px;
+    color: #ffffff;
+}
+
+.file-list-item.active {
+    border-left: 4px solid #e95f59;
 }
 
 /**

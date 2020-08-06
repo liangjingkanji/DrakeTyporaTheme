@@ -51,7 +51,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 截图预览
 
-![image-20200802050022271](https://i.imgur.com/jLr8OyT.png)
-
+![image-20200802050022271](https://i.imgur.com/J34NMr6.png)
 
 
