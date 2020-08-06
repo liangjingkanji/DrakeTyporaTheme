@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: "JetBrains Mono", Menlo, Consolas !important;
+    font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas !important;
     color: #304455;
     -webkit-font-smoothing: auto;
     line-height: 1.6rem;
