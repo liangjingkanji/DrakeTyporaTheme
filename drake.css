@@ -1,7 +1,9 @@
 :root {
     --side-bar-bg-color: #fff;
     --control-text-color: #777;
-    --active-file-border-color: #e95f59;
+    --active-file-border-color: var(--drake-accent);
+    --drake-accent: #e95f59;
+    --drake-highlight: #d63200;
 }
 
 html {
@@ -9,7 +11,7 @@ html {
 }
 
 body {
-    font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas !important;
+    font-family: "JetBrains Mono", Menlo, Consolas !important;
     color: #304455;
     -webkit-font-smoothing: auto;
     line-height: 1.6rem;
@@ -47,7 +49,7 @@ body > *:last-child {
 }
 
 a {
-    color: #d63200;
+    color: var(--drake-highlight);
     padding: 0 2px;
 }
 
@@ -248,7 +250,7 @@ blockquote:before {
     left: 0;
     top: 0;
     height: 100%;
-    background-color:#e95f59;
+    background-color:var(--drake-accent);
     border-radius: 2px;
 }
 
@@ -339,7 +341,7 @@ table tr td:last-child {
     margin: 0 2px;
     border-radius: 2px;
     font-family: initial !important;
-    color: #d63200;
+    color: var(--drake-highlight);
 }
 
 /* heighlight. */
@@ -543,7 +545,7 @@ span.cm-comment {
 /*footnotes mark*/
 #write .md-footnote {
     background-color: inherit;
-    color: #d63200;
+    color: var(--drake-highlight);
     font-size: 0.9rem;
     border-radius: 0.9rem;
     padding-left: 0;
@@ -628,13 +630,13 @@ div.code-tooltip-content {
 
 .outline-active {
     padding: 0px 4px;
-    background-color: #e95f59;
+    background-color: var(--drake-accent);
     border-radius: 2px;
     color: #ffffff;
 }
 
 .file-list-item.active {
-    border-left: 4px solid #e95f59;
+    border-left: 4px solid var(--drake-accent);
 }
 
 /**
@@ -678,6 +680,7 @@ div.code-tooltip-content {
 .cm-s-inner .CodeMirrir-linenumber { color: #606366; }
 .cm-s-inner .CodeMirror-matchingbracket { background-color: #3B514D; color: #FFEF28 !important; }
 
-.CodeMirror-selected, .CodeMirror-selectedtext { background: #214283 !important; }
-
+.cm-s-inner .CodeMirror-selected{ background: #214283 !important; }
+.cm-s-inner .CodeMirror-selectedtext { background: #214283 !important; }
+.cm-overlay.CodeMirror-selectedtext { background: #B5D6FC !important; }
 .cm-s-inner div.CodeMirror-cursor { border-left: 1px solid #ffffff; }
