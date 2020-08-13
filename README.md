@@ -45,7 +45,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
 
-[^2]: 脚注内容, 一般不使用脚注因为很多文档不支持Markdown脚注渲染(例如GitHub不支持脚注)
+[^2]: 脚注内容, 一般不使用脚注因为很多文档不支持`Markdown`脚注渲染(例如GitHub不支持脚注)
 
 ## 截图预览
 

@@ -21,7 +21,7 @@ body {
 }
 
 img {
-    border-radius: 8px;
+    border-radius: 2px;
 }
 
 #write {
@@ -234,7 +234,7 @@ ol:last-child {
 
 blockquote {
     color: #304455;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 10px 16px;
     background-color: #fdefee;
     position: relative;
@@ -262,7 +262,7 @@ blockquote:before {
     padding: 6px 6px;
     margin: 0px 2px;
     background-color: #e7ecf3;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 table {
@@ -323,12 +323,14 @@ table tr td:last-child {
 #write .md-fences {
     font-size: 1rem;
     padding: 0.5rem !important;
-    border-radius: 4px;
+    border-radius: 2px;
     font-family: inherit !important;
     word-wrap: normal;
     background-color: #2b2b2b;
     color: #A9B7C6;
     border: none;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 /*block boder*/
@@ -391,7 +393,7 @@ table tr td:last-child {
     line-height: 1.45;
     background-color: #f7f7f7;
     border: 0;
-    border-radius: 3px;
+    border-radius: 2px;
     color: #777777;
     margin-top: 0 !important;
 }
@@ -421,7 +423,7 @@ table tr td:last-child {
 }
 
 .md-image > .md-meta {
-    border-radius: 3px;
+    border-radius: 2px;
     font-family: initial;
     padding: 2px 0 0 4px;
     color: inherit;
@@ -558,6 +560,11 @@ span.cm-comment {
     content: "]";
 }
 
+/*footnotes content*/
+.md-hover-tip .code-tooltip-content {
+    border-radius: 2px;
+}
+
 /*footnotes title*/
 span.md-def-name {
     padding-right: 3ch;
@@ -581,7 +588,7 @@ span.md-def-name {
 }
 
 .code-tooltip-content code {
-    padding: 0 4px;
+    padding: 0 2px;
     font-family: inherit;
     color: #FFD760;
     background-color: inherit;
