@@ -348,11 +348,11 @@ table tr td:last-child {
 
 /* heighlight. */
 #write mark {
-    background-color: #EBFFEB;
+    background-color: #e95f59;
+    color: #ffffff;
     border-radius: 2px;
-    padding: 2px 4px;
+    padding: 2px 2px;
     margin: 0 2px;
-    color: #222;
 }
 
 #write del {
