@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: "JetBrains Mono", Menlo, Consolas !important;
-    color: #304455;
+    color: #333333;
     -webkit-font-smoothing: auto;
     line-height: 1.6rem;
     letter-spacing: 0;
@@ -333,11 +333,6 @@ table tr td:last-child {
     margin-right: 2px;
 }
 
-/*block boder*/
-/*#write .CodeMirror-wrap .CodeMirror-code pre {
-    padding-left: 12px;
-}*/
-
 /*code snippet*/
 #write code, tt {
     margin: 0 2px;
@@ -348,8 +343,8 @@ table tr td:last-child {
 
 /* heighlight. */
 #write mark {
-    background-color: #e95f59;
-    color: #ffffff;
+    background-color: #e7ecf3;
+    color: inherit;
     border-radius: 2px;
     padding: 2px 2px;
     margin: 0 2px;
