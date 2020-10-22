@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: "JetBrains Mono", Menlo, Consolas !important;
+    font-family: "Plex Mono", "JetBrains Mono", Menlo, Consolas !important;
     color: #333333;
     -webkit-font-smoothing: auto;
     line-height: 1.6rem;
@@ -255,13 +255,11 @@ blockquote:before {
 }
 
 #write strong {
-    color: #273849;
-    line-height: 1;
+    color: #ffffff;
     display: inline-block;
-    font-weight: bold;
-    padding: 6px 6px;
-    margin: 0px 2px;
-    background-color: #e7ecf3;
+    font-weight: normal;
+    padding: 1px 4px;
+    background-color: #273849;
     border-radius: 2px;
 }
 
@@ -627,14 +625,8 @@ div.code-tooltip-content {
 }
 
 .pin-outline #outline-content .outline-active strong, .pin-outline .outline-active {
-    font-weight: normal;
-}
-
-.outline-active {
-    padding: 0px 4px;
-    background-color: var(--drake-accent);
-    border-radius: 2px;
-    color: #ffffff;
+    font-weight: 500;
+    color: var(--drake-highlight);
 }
 
 .file-list-item.active {
