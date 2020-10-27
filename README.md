@@ -1,12 +1,8 @@
 ## 介绍
 
-
-
-1. 截图使用默认的字体: [JetBrainsMono](https://www.jetbrains.com/lp/mono/), 安装即可. 如果需要自定义字体修改CSS文件`第11行`字体名称即可替换全部字体
+1. 截图使用默认的字体: [PlexMono](https://github.com/liangjingkanji/PlexMono), 安装即可. 如果需要自定义字体修改CSS文件`第14行`字体名称即可替换全部字体
 2. 代码渲染配置来自`JetBrains Darcula`
 3. 脚注样式来自于`维基百科`
-
-
 
 ## 安装方式
 
@@ -20,10 +16,11 @@
 
 **加粗效果**
 
+效仿JetBrains的IDE代码高亮
+
 ```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main)
 
     state.onRefresh {
         // 一般在这里进行网络请求
@@ -39,8 +36,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 这里演示脚注内容[^2]
 
-
-
 > 推荐用于醒目标注内容
 
 
@@ -49,7 +44,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 截图预览
 
-![image-20200802050022271](https://i.imgur.com/afjpABl.png)
+![image-20201027114757421](https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png)
 
 
 
