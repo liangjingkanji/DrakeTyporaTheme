@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: "Plex Mono", "JetBrains Mono", Menlo, Consolas !important;
+    font-family: "JetBrains Mono", Menlo, Consolas !important;
     color: #333333;
     -webkit-font-smoothing: auto;
     line-height: 1.6rem;

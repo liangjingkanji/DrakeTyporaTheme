@@ -1,6 +1,6 @@
 ## 介绍
 
-1. 截图使用默认的字体: [PlexMono](https://github.com/liangjingkanji/PlexMono), 安装即可. 如果需要自定义字体修改CSS文件`第14行`字体名称即可替换全部字体
+1. 截图使用默认的字体: [JetBrainsMono](https://www.jetbrains.com/lp/mono/), 安装即可. 如果需要自定义字体修改CSS文件`第14行`字体名称即可替换全部字体
 2. 代码渲染配置来自`JetBrains Darcula`
 3. 脚注样式来自于`维基百科`
 
@@ -44,7 +44,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 截图预览
 
-![image-20201027114757421](https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png)
+![image-20201112150048125](https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png)
 
 
 
