@@ -258,9 +258,10 @@ blockquote:before {
     color: #ffffff;
     display: inline-block;
     font-weight: normal;
-    padding: 1px 4px;
-    background-color: #273849;
-    border-radius: 2px;
+    font-size: 0.9em;
+    padding: 0 7px;
+    background-color: #909090;
+    border-radius: 3em;
 }
 
 table {
