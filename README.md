@@ -3,6 +3,7 @@
 1. 截图使用默认的字体: [JetBrainsMono](https://www.jetbrains.com/lp/mono/), 安装即可. 如果需要自定义字体修改CSS文件`第14行`字体名称即可替换全部字体
 2. 代码渲染配置来自`JetBrains Darcula`
 3. 脚注样式来自于`维基百科`
+4. 推荐字体: [PlexMono](https://github.com/liangjingkanji/PlexMono)
 
 ## 安装方式
 
