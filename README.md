@@ -1,5 +1,12 @@
 ## 介绍
 
+<p align="left">
+<img src="https://img.shields.io/badge/GitHub-%E9%AB%98%E7%BA%A7%E9%94%AE%E7%9B%98%E4%BE%A0-brightgreen"/>
+<img src="https://img.shields.io/badge/Theme-typora-orange.svg"/>
+<img src="https://img.shields.io/badge/license-Apache-blue"/>
+<a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
+</p>
+
 1. 截图使用默认的字体: [JetBrainsMono](https://www.jetbrains.com/lp/mono/), 安装即可. 如果需要自定义字体修改CSS文件`第14行`字体名称即可替换全部字体
 2. 代码渲染配置来自`JetBrains Darcula`
 3. 脚注样式来自于`维基百科`
