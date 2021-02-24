@@ -52,9 +52,19 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 截图预览
 
+提供多种配置预览
+
+### drake
+
 ![image-20201112150048125](https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png)
 
 
+
+
+
+### drake-light
+
+![image-20210224082544310](https://i.imgur.com/sKNZMk2.png)
 
 ## License
 
