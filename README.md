@@ -7,10 +7,21 @@
 <a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
 </p>
 
-1. 截图使用默认的字体: [JetBrainsMono](https://www.jetbrains.com/lp/mono/), 安装即可. 如果需要自定义字体修改CSS文件`第14行`字体名称即可替换全部字体
+1. 截图使用默认的字体: [JetBrainsMono](https://www.jetbrains.com/lp/mono/), 下载安装即可
+
+   如果需要自定义字体, 请修改CSS文件`第14行`字体名称即可替换全部显示字体(某些字体仅支持英文字体)
+
+   ```css
+   font-family: "JetBrains Mono", 我想要的中文字体名称, sans-serif !important;
+   ```
+
+   假设第一个字体不支持中文, 则会采用第二个字体的中文, 如果第一个字体都支持则中英文都会采用第一个. 如果第一个字体未安装则会使用后续字体
+
+   
+
 2. 代码渲染配置来自`JetBrains Darcula`
+
 3. 脚注样式来自于`维基百科`
-4. 适合代码编写的字体: [PlexMono](https://github.com/liangjingkanji/PlexMono)
 
 ## 安装方式
 
