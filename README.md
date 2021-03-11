@@ -1,5 +1,7 @@
 ## 介绍
 
+[![Join the chat at https://gitter.im/liangjingkanji/DrakeTyporaTheme](https://badges.gitter.im/liangjingkanji/DrakeTyporaTheme.svg)](https://gitter.im/liangjingkanji/DrakeTyporaTheme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <p align="left">
 <img src="https://img.shields.io/badge/GitHub-%E9%AB%98%E7%BA%A7%E9%94%AE%E7%9B%98%E4%BE%A0-brightgreen"/>
 <img src="https://img.shields.io/badge/Theme-typora-orange.svg"/>
