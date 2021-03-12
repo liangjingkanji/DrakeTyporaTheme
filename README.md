@@ -23,6 +23,36 @@
 
 3. 脚注样式来自于`维基百科`
 
+
+
+## 截图预览
+
+提供多种配置预览
+
+### drake
+
+<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png" alt="image-20201112150048125" style="zoom:50%;" /> 
+
+
+
+
+
+### drake-light
+
+<img src="https://i.imgur.com/sKNZMk2.png" alt="image-20210224082544310" style="zoom:50%;" /> 
+
+
+
+## 推荐字体
+
+| 字体                                                   | 描述                                                         |
+| ------------------------------------------------------ | ------------------------------------------------------------ |
+| [PT Code](https://github.com/liangjingkanji/PTCode)    | 基于PT Mono, 增加连字特性Ligatures, 略微有衬线, 字体偏大, "整齐的行书" |
+| [PlexMono](https://github.com/liangjingkanji/PlexMono) | 基于[IBM PT Mono](https://github.com/IBM/plex), 增加连字特性Ligatures, 没有任何多余笔画, 端正 |
+| [JetBrains Mono](https://www.jetbrains.com/lp/mono/)   | JetBrains公司开发的字体, 同样拥有连字特性Ligatures, 灵动的高可读性字体 |
+
+> 都属于等宽字体, 可以在任何场景下使用
+
 ## 安装方式
 
 1. 首先确定已安装 [Typora](https://typora.io/)
@@ -70,22 +100,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
 [^2]: 脚注内容, 一般不使用脚注因为很多文档不支持`Markdown`脚注渲染(例如GitHub不支持脚注)
-
-## 截图预览
-
-提供多种配置预览
-
-### drake
-
-![image-20201112150048125](https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png)
-
-
-
-
-
-### drake-light
-
-![image-20210224082544310](https://i.imgur.com/sKNZMk2.png)
 
 ## License
 
