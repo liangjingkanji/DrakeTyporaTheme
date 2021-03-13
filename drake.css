@@ -114,15 +114,15 @@ h3 a {
 }
 
 h1 {
+    font-size: 1.6rem;
     padding-bottom: .4rem;
-    font-size: 2.2rem;
     text-align: center;
     margin-top: 0;
     line-height: 1.3;
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     line-height: 1.225;
     padding-bottom: 10px;
     margin-bottom: 2rem;
