@@ -31,7 +31,7 @@
 
 ### drake
 
-<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png" alt="image-20201112150048125" style="zoom:50%;" /> 
+<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png"/> 
 
 
 
@@ -39,7 +39,7 @@
 
 ### drake-light
 
-![image-20210314171051279](https://i.imgur.com/UjXVg9L.jpg) 
+<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail-light.png"/> 
 
 
 
