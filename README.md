@@ -1,21 +1,23 @@
 ## 介绍
 
 <p align="left">
-<img src="https://img.shields.io/badge/GitHub-%E9%AB%98%E7%BA%A7%E9%94%AE%E7%9B%98%E4%BE%A0-brightgreen"/>
+<img src="https://img.shields.io/badge/本人-%E9%AB%98%E7%BA%A7%E9%94%AE%E7%9B%98%E4%BE%A0-brightgreen"/>
 <img src="https://img.shields.io/badge/Theme-typora-orange.svg"/>
 <img src="https://img.shields.io/badge/license-Apache-blue"/>
 <a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
 </p>
 
-1. 截图使用默认的字体: [JetBrainsMono](https://www.jetbrains.com/lp/mono/), 下载安装即可
 
-   如果需要自定义字体, 请修改CSS文件`第14行`字体名称即可替换全部显示字体(某些字体仅支持英文字体)
+1. 截图使用默认的字体: [PT Code](https://github.com/liangjingkanji/PTCode), 下载安装即可
+
+   如果需要自定义字体, 请修改CSS文件`第14行`字体名称为你想要的字体即可替换全部显示字体
 
    ```css
-   font-family: "JetBrains Mono", 我想要的中文字体名称, sans-serif !important;
+   font-family: "PT Code", "我想要的中文字体名称", sans-serif !important;
    ```
 
-   假设第一个字体不支持中文, 则会采用第二个字体的中文, 如果第一个字体都支持则中英文都会采用第一个. 如果第一个字体未安装则会使用后续字体
+   - 如果第一个字体不支持中文, 则会采用第二个字体的中文, 
+   - 如果第一个字体未安装则会使用后续字体
 
    
 
@@ -23,13 +25,15 @@
 
 3. 脚注样式来自于`维基百科`
 
+4. 推荐使用本主题制作优雅的简历, 可导出为静态网页部署在线简历
+
 
 
 ## 截图预览
 
 提供多种配置预览
 
-### drake
+## drake
 
 <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png"/> 
 
