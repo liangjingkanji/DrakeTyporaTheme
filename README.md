@@ -39,7 +39,7 @@
 
 ### drake-light
 
-<img src="https://i.imgur.com/sKNZMk2.png" alt="image-20210224082544310" style="zoom:50%;" /> 
+![image-20210314171051279](https://i.imgur.com/UjXVg9L.jpg) 
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-**加粗效果**
+**使用加粗作为小标题**
 
 ```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
