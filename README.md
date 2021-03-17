@@ -25,7 +25,7 @@
 
 3. 脚注样式来自于`维基百科`
 
-4. 推荐使用本主题制作优雅的简历, 可导出为静态网页部署在线简历
+4. 推荐使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 
 
 
