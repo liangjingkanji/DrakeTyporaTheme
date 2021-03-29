@@ -11,9 +11,9 @@ html {
 }
 
 body {
-    font-family: "PT Code", sans-serif !important;
+    font-family: "JetBrains Mono", sans-serif !important;
     color: #333333;
-    -webkit-font-smoothing: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
     line-height: 1.6rem;
     letter-spacing: 0;
     margin: 0;
