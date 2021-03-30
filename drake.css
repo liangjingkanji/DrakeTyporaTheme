@@ -74,9 +74,17 @@ h1 {
     margin-top: 0;
 }
 
+.megamenu-menu-panel h1{
+    text-align: left;
+}
+
 h2 {
     font-size: 1.6rem;
     display: inline-block;
+}
+
+.megamenu-menu-panel h2{
+    display: block;
 }
 
 h2 .md-plain:after {
