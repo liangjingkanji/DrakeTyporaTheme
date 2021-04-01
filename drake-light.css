@@ -4,6 +4,7 @@
     --active-file-border-color: var(--drake-accent);
     --drake-accent: #e95f59;
     --drake-highlight: #d63200;
+    --drake-text-color: #000000;
 }
 
 html {
@@ -12,8 +13,11 @@ html {
 
 body {
     font-family: "JetBrains Mono", sans-serif !important;
-    color: #000000;
+    color: var(--drake-text-color);
+    -webkit-font-feature-settings:"liga" on, "calt" on;
     -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering:optimizeLegibility;
+    text-shadow: #00000020 0px 0px 1px !important;
     line-height: 1.6rem;
     letter-spacing: 0;
     margin: 0;
@@ -242,7 +246,7 @@ ol:last-child {
 }
 
 blockquote {
-    color: #304455;
+    color: var(--drake-text-color);
     border-radius: 2px;
     padding: 10px 16px;
     background-color: #fdefee;
