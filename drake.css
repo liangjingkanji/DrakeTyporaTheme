@@ -17,7 +17,6 @@ body {
     -webkit-font-feature-settings:"liga" on, "calt" on;
     -webkit-font-smoothing: subpixel-antialiased;
     text-rendering:optimizeLegibility;
-    text-shadow: #33333333 0px 0px 1px !important;
     line-height: 1.6rem;
     letter-spacing: 0;
     margin: 0;
