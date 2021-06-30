@@ -14,13 +14,70 @@ html {
 body {
     font-family: "JetBrains Mono", sans-serif !important;
     color: var(--drake-text-color);
-    -webkit-font-feature-settings:"liga" on, "calt" on;
+    -webkit-font-feature-settings: "liga" on, "calt" on;
     -webkit-font-smoothing: subpixel-antialiased;
-    text-rendering:optimizeLegibility;
+    text-rendering: optimizeLegibility;
     line-height: 1.6rem;
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden;
+}
+
+/*code block*/
+#write .md-fences {
+    font-family: initial !important;
+    font-size: 1rem;
+    padding: 0.5rem !important;
+    border-radius: 2px;
+    word-wrap: normal;
+    background-color: #f6f8fa;
+    color: #24292e;
+    border: none;
+}
+
+/*code snippet*/
+#write code, tt {
+    margin: 0 2px;
+    border-radius: 2px;
+    font-family: initial !important;
+    color: var(--drake-highlight);
+}
+
+/*quote block*/
+blockquote:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 4px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--drake-accent);
+    border-radius: 2px;
+}
+
+blockquote {
+    color: var(--drake-text-color);
+    border-radius: 2px;
+    padding: 10px 16px;
+    background-color: #fdefee;
+    position: relative;
+    border-left: none;
+}
+
+#write strong {
+    color: #ffffff;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 0.9em;
+    padding: 0 7px;
+    background-color: #909090;
+    border-radius: 3em;
+}
+
+a {
+    color: var(--drake-highlight);
+    padding: 0 2px;
 }
 
 img {
@@ -51,11 +108,6 @@ body > *:last-child {
     margin-bottom: 0 !important;
 }
 
-a {
-    color: var(--drake-highlight);
-    padding: 0 2px;
-}
-
 h1,
 h2,
 h3,
@@ -77,7 +129,7 @@ h1 {
     margin-top: 0;
 }
 
-.megamenu-menu-panel h1{
+.megamenu-menu-panel h1 {
     text-align: left;
 }
 
@@ -86,7 +138,7 @@ h2 {
     display: inline-block;
 }
 
-.megamenu-menu-panel h2{
+.megamenu-menu-panel h2 {
     display: block;
 }
 
@@ -95,7 +147,7 @@ h2 .md-plain:after {
     content: '';
     height: 2px;
     margin-top: 4px;
-    background-color:#273849;
+    background-color: #273849;
     border-radius: 2px;
 }
 
@@ -244,38 +296,6 @@ ol:last-child {
     margin-bottom: 0;
 }
 
-blockquote {
-    color: var(--drake-text-color);
-    border-radius: 2px;
-    padding: 10px 16px;
-    background-color: #fdefee;
-    position: relative;
-    border-left: none;
-}
-
-/*quote block*/
-blockquote:before {
-    display: block;
-    position: absolute;
-    content: '';
-    width: 4px;
-    left: 0;
-    top: 0;
-    height: 100%;
-    background-color:var(--drake-accent);
-    border-radius: 2px;
-}
-
-#write strong {
-    color: #ffffff;
-    display: inline-block;
-    font-weight: normal;
-    font-size: 0.9em;
-    padding: 0 7px;
-    background-color: #909090;
-    border-radius: 3em;
-}
-
 table {
     padding: 0;
     word-break: initial;
@@ -328,26 +348,6 @@ table tr td:last-child {
 
 #write .CodeMirror-gutters {
     border-right: none;
-}
-
-/*code block*/
-#write .md-fences {
-    font-size: 1rem;
-    padding: 0.5rem !important;
-    border-radius: 2px;
-    font-family: inherit !important;
-    word-wrap: normal;
-    background-color: #f6f8fa;
-    color: #24292e;
-    border: none;
-}
-
-/*code snippet*/
-#write code, tt {
-    margin: 0 2px;
-    border-radius: 2px;
-    font-family: initial !important;
-    color: var(--drake-highlight);
 }
 
 /* heighlight. */
@@ -452,8 +452,8 @@ table tr td:last-child {
 }
 
 .typora-quick-open-item {
-	font-size: 1rem !important;
-	height: 48px; 
+    font-size: 1rem !important;
+    height: 48px;
     padding-left: 8px;
     padding-top: 4px;
 }
@@ -484,7 +484,7 @@ footer {
     background-color: #fafafa;
     font-size: 1rem;
     background-color: var(--side-bar-bg-color);
-} 
+}
 
 .md-lang {
     color: #b4654d;
@@ -498,7 +498,7 @@ footer {
 /*insert element*/
 
 .ty-quick-open-category.ty-has-prev .ty-quick-open-category-title {
-    border-top:none;
+    border-top: none;
 }
 
 .file-list-item-summary {
@@ -506,34 +506,34 @@ footer {
 }
 
 #typora-quick-open-input {
-	margin: 8px;
-	box-shadow:none;
-	border-radius:2px;
+    margin: 8px;
+    box-shadow: none;
+    border-radius: 2px;
 }
 
 #typora-quick-open-input input {
-	font-size: 1rem;
-	box-shadow:none;
-	padding-top: 2px;
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 32px;
-	max-height: 32px;
+    font-size: 1rem;
+    box-shadow: none;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 32px;
+    max-height: 32px;
 }
 
-.modal-dialog#typora-quick-open{
-	border-radius: 2px;
+.modal-dialog#typora-quick-open {
+    border-radius: 2px;
 }
 
 .ty-quick-open-category-title {
-	padding-left: 8px;
-	color: #BEBEBE;
+    padding-left: 8px;
+    color: #BEBEBE;
 }
 
 .typora-quick-open-item-path {
     font-size: 10px;
-    text-overflow:ellipsis;
-    white-space:nowrap
+    text-overflow: ellipsis;
+    white-space: nowrap
 }
 
 .outline-item {
@@ -556,6 +556,7 @@ footer {
 #write .md-footnote:before {
     content: "[";
 }
+
 #write .md-footnote:after {
     content: "]";
 }
@@ -569,7 +570,7 @@ footer {
 span.md-def-name {
     padding-right: 3ch;
     padding-left: 0;
-    position:relative;
+    position: relative;
     font-weight: normal;
 }
 
@@ -578,7 +579,7 @@ span.md-def-name {
     font-size: 1rem;
     font-weight: normal;
     color: #304455;
-    position:relative;
+    position: relative;
 }
 
 /*footnotes tooltip text*/
@@ -599,11 +600,11 @@ span.md-def-name {
 }
 
 div.code-tooltip-content {
-    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .footnotes {
-    opacity:1;
+    opacity: 1;
 }
 
 .md-def-name:after {
@@ -614,13 +615,13 @@ div.code-tooltip-content {
 .md-def-footnote .md-def-name:before {
     content: "";
     color: #304455;
-    position:absolute;
+    position: absolute;
 }
 
 .md-def-name:before {
     content: "";
     color: #304455;
-    position:absolute;
+    position: absolute;
 }
 
 .CodeMirror-scroll::-webkit-scrollbar {
@@ -640,23 +641,83 @@ div.code-tooltip-content {
     border-left: 4px solid var(--drake-accent);
 }
 
-/* code render */
-.cm-s-inner span.cm-number { color: #4A86E8; }
-.cm-s-inner span.cm-atom { color: #9E880D; }
-.cm-s-inner span.cm-def { color: #00f; }
-.cm-s-inner span.cm-variable { color: black; }
-.cm-s-inner span.cm-variable-2 { color: #00627A; }
-.cm-s-inner span.cm-variable-3, .cm-s-inner span.cm-type { color: #00627A; }
-.cm-s-inner span.cm-property { color: black; }
-.cm-s-inner span.cm-keyword { color: #708; }
-.cm-s-inner span.cm-operator { color: black; }
-.cm-s-inner span.cm-comment { color: #787878; }
-.cm-s-inner span.cm-string { color: #008000; }
-.cm-s-inner span.cm-string-2 { color: #008000; }
-.cm-s-inner span.cm-qualifier { color: black; }
-.cm-s-inner span.cm-error { color: red; }
-.cm-s-inner span.cm-attribute { color: black; }
-.cm-s-inner span.cm-tag { color: black; }
-.cm-s-inner span.cm-link { color: #4A86E8; }
-.cm-s-inner span.cm-builtin { color: black; }
-.cm-s-inner span.cm-bracket { color: black; }
+/**
+    code render
+    Name: IntelliJ IDEA light theme
+    From IntelliJ IDEA by JetBrains
+ */
+.cm-s-inner span.cm-number {
+    color: #4A86E8;
+}
+
+.cm-s-inner span.cm-atom {
+    color: #9E880D;
+}
+
+.cm-s-inner span.cm-def {
+    color: #00f;
+}
+
+.cm-s-inner span.cm-variable {
+    color: black;
+}
+
+.cm-s-inner span.cm-variable-2 {
+    color: #00627A;
+}
+
+.cm-s-inner span.cm-variable-3, .cm-s-inner span.cm-type {
+    color: #00627A;
+}
+
+.cm-s-inner span.cm-property {
+    color: black;
+}
+
+.cm-s-inner span.cm-keyword {
+    color: #708;
+}
+
+.cm-s-inner span.cm-operator {
+    color: black;
+}
+
+.cm-s-inner span.cm-comment {
+    color: #787878;
+}
+
+.cm-s-inner span.cm-string {
+    color: #008000;
+}
+
+.cm-s-inner span.cm-string-2 {
+    color: #008000;
+}
+
+.cm-s-inner span.cm-qualifier {
+    color: black;
+}
+
+.cm-s-inner span.cm-error {
+    color: red;
+}
+
+.cm-s-inner span.cm-attribute {
+    color: black;
+}
+
+.cm-s-inner span.cm-tag {
+    color: black;
+}
+
+.cm-s-inner span.cm-link {
+    color: #4A86E8;
+}
+
+.cm-s-inner span.cm-builtin {
+    color: black;
+}
+
+.cm-s-inner span.cm-bracket {
+    color: black;
+}
