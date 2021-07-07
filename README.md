@@ -8,24 +8,21 @@
 </p>
 
 
+1. 本主题具备三种风格
 1. 截图使用默认的字体: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), 下载安装即可
 
-   如果需要自定义字体, 请修改CSS文件`第14行`字体名称为你想要的字体即可替换全部显示字体
+   如果需要自定义字体, 请修改CSS文件`第4行`字体名称为你想要的字体即可替换全部显示字体
 
    ```css
-   font-family: "JetBrains Mono", "我想要的中文字体名称", sans-serif !important;
+   --monospace: "JetBrains Mono", monospace;
    ```
 
    - 如果第一个字体不支持中文, 则会采用第二个字体的中文, 
    - 如果第一个字体未安装则会使用后续字体
 
-   
+1. 脚注样式来自于`维基百科`
 
-2. 代码渲染配置来自`JetBrains Darcula`
-
-3. 脚注样式来自于`维基百科`
-
-4. 推荐使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
+1. 推荐使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 
 ## 安装方式
 
@@ -35,9 +32,7 @@
 
 3. 通过`设置 -> 外观 -> 打开主题文件夹`打开theme目录
 
-
-
-**使用加粗作为小标题**
+**小标题**
 
 ```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
@@ -83,19 +78,15 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ### drake
 
-<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail.png"/> 
-
-
-
-
+<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png"/> 
 
 ### drake-light
 
-<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/thumbnail-light.png"/> 
+<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png"/> 
 
+### drake-dark
 
-
-## 
+<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"/>
 
 ## License
 
