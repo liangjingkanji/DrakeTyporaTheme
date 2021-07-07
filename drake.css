@@ -1,10 +1,33 @@
 :root {
-    --side-bar-bg-color: #fff;
-    --control-text-color: #777;
+    --text-color: #333333;
+    --bg-color: #ffffff;
+    --monospace: "JetBrains Mono", monospace;
+    --control-text-color: var(--text-color);
+    --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
+    --rawblock-edit-panel-bd: var(--code-block-bg-color);
+
     --drake-accent: #e95f59;
     --drake-highlight: #d63200;
-    --drake-text-color: #333333;
+    --code-block-bg-color: #2b2b2b;
+    --code-block-text-color: #A9B7C6;
+    --title-text-color: #273849;
+    --blockquote-border-color: var(--drake-accent);
+    --blockquote-bg-color: #fdefee;
+    --strong-text-color: #ffffff;
+    --strong-bg-color: #909090;
+    --h2-underline-bg: var(--title-text-color);
+    --horizontal-divider-color: #e7e7e7;
+    --height-light-bg-color: #e7ecf3;
+    --yaml-text-color: #777777;
+    --yaml-bg-color: #f7f7f7;
+    --footnotes-bg-color: #3c3d3e;
+    --footnotes-highlight: #FFD760;
+    --table-border-color: #dfe2e5;
+    --table-header-bg-color: #f2f2f2;
+    --table-bg-color: #fafafa;
+    --input-bg-color: #f2f2f2;
+    --btn-hover-bg-color: #f2f2f2;
 }
 
 html {
@@ -12,8 +35,8 @@ html {
 }
 
 body {
-    font-family: "JetBrains Mono", sans-serif !important;
-    color: var(--drake-text-color);
+    font-family: var(--monospace) !important;
+    color: var(--text-color);
     -webkit-font-feature-settings: "liga" on, "calt" on;
     -webkit-font-smoothing: subpixel-antialiased;
     text-rendering: optimizeLegibility;
@@ -30,8 +53,8 @@ body {
     padding: 0.5rem !important;
     border-radius: 2px;
     word-wrap: normal;
-    background-color: #2b2b2b;
-    color: #A9B7C6;
+    background-color: var(--code-block-bg-color);
+    color: var(--code-block-text-color);
     border: none;
 }
 
@@ -43,6 +66,35 @@ body {
     color: var(--drake-highlight);
 }
 
+/*raw block*/
+.md-rawblock-control:not(.md-rawblock-tooltip) {
+    border-radius: 2px 0 2px 2px;
+    padding: 0.2rem !important;
+}
+
+.md-rawblock:hover > .md-rawblock-container {
+    background: none;
+}
+
+.md-rawblock-input {
+    font-size: 1rem;
+}
+
+.md-rawblock:hover > .md-rawblock-tooltip {
+    border-radius: 2px 2px 0 0;
+    margin-bottom: 2px !important;
+}
+
+.md-rawblock-tooltip.md-rawblock-control {
+    border-radius: 2px 2px 0 0;
+    color: var(--code-block-text-color);
+}
+
+.md-rawblock-tooltip-name {
+    color: var(--code-block-text-color);
+    opacity: 1;
+}
+
 /*quote block*/
 blockquote:before {
     display: block;
@@ -52,26 +104,26 @@ blockquote:before {
     left: 0;
     top: 0;
     height: 100%;
-    background-color: var(--drake-accent);
+    background-color: var(--blockquote-border-color);
     border-radius: 2px;
 }
 
 blockquote {
-    color: var(--drake-text-color);
+    color: var(--text-color);
     border-radius: 2px;
     padding: 10px 16px;
-    background-color: #fdefee;
+    background-color: var(--blockquote-bg-color);
     position: relative;
     border-left: none;
 }
 
 #write strong {
-    color: #ffffff;
+    color: var(--strong-text-color);
     display: inline-block;
     font-weight: normal;
     font-size: 0.9em;
     padding: 0 7px;
-    background-color: #909090;
+    background-color: var(--strong-bg-color);
     border-radius: 3em;
 }
 
@@ -120,7 +172,7 @@ h6 {
     font-weight: bold;
     line-height: 1.4;
     cursor: text;
-    color: #273849;
+    color: var(--title-text-color);
 }
 
 h1 {
@@ -139,7 +191,7 @@ h2 .md-plain:after {
     content: '';
     height: 2px;
     margin-top: 4px;
-    background-color: #273849;
+    background-color: var(--h2-underline-bg);
     border-radius: 2px;
 }
 
@@ -198,11 +250,6 @@ h6 code {
     font-size: inherit !important;
 }
 
-h2 a,
-h3 a {
-    color: #34495e;
-}
-
 p,
 blockquote,
 ul,
@@ -221,7 +268,7 @@ hr {
     height: 2px;
     padding: 0;
     margin: 16px 0;
-    background-color: #e7e7e7;
+    background-color: var(--horizontal-divider-color);
     border: 0 none;
     overflow: hidden;
     box-sizing: content-box;
@@ -294,19 +341,19 @@ table {
 }
 
 table tr {
-    border-top: 1px solid #dfe2e5;
+    border-top: 1px solid var(--table-border-color);
     margin: 0;
     padding: 0;
 }
 
 table tr:nth-child(2n),
 thead {
-    background-color: #fafafa;
+    background-color: var(--table-bg-color);
 }
 
 table tr th {
     font-weight: bold;
-    border: 1px solid #dfe2e5;
+    border: 1px solid var(--table-border-color);
     border-bottom: 0;
     text-align: left;
     margin: 0;
@@ -314,7 +361,7 @@ table tr th {
 }
 
 table tr td {
-    border: 1px solid #dfe2e5;
+    border: 1px solid var(--table-border-color);
     text-align: left;
     margin: 0;
     padding: 6px 13px;
@@ -335,16 +382,16 @@ table tr td:last-child {
 }
 
 #write table thead th {
-    background-color: #f2f2f2;
+    background-color: var(--table-header-bg-color);
 }
 
 #write .CodeMirror-gutters {
     border-right: none;
 }
 
-/* heighlight. */
+/* height light. */
 #write mark {
-    background-color: #e7ecf3;
+    background-color: var(--height-light-bg-color);
     color: inherit;
     border-radius: 2px;
     padding: 2px 2px;
@@ -353,15 +400,6 @@ table tr td:last-child {
 
 #write del {
     padding: 1px 2px;
-}
-
-.cm-s-inner .cm-link,
-.cm-s-inner.cm-link {
-    color: #22a2c9;
-}
-
-.cm-s-inner .cm-string {
-    color: #22a2c9;
 }
 
 .md-task-list-item > input {
@@ -383,14 +421,15 @@ table tr td:last-child {
     }
 }
 
+/*YAML*/
 #write pre.md-meta-block {
     padding: 1rem;
     font-size: 85%;
     line-height: 1.45;
-    background-color: #f7f7f7;
+    background-color: var(--yaml-bg-color);
     border: 0;
     border-radius: 2px;
-    color: #777777;
+    color: var(--yaml-text-color);
     margin-top: 0 !important;
 }
 
@@ -438,11 +477,6 @@ table tr td:last-child {
     border-bottom: none;
 }
 
-#typora-quick-open {
-    border: 1px solid #ddd;
-    background-color: #f8f8f8;
-}
-
 .typora-quick-open-item {
     font-size: 1rem !important;
     height: 48px;
@@ -450,12 +484,67 @@ table tr td:last-child {
     padding-top: 4px;
 }
 
+#typora-quick-open {
+    box-shadow: 0 0 8px #00000045;
+    padding: 0;
+}
+
+.ty-quick-open-category.ty-has-prev .ty-quick-open-category-title {
+    border-top: none;
+}
+
+#typora-quick-open-input {
+    margin: 8px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+#typora-quick-open-input input {
+    font-size: 1rem;
+    box-shadow: none;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 32px;
+    max-height: 32px;
+    border: none;
+    background-color: var(--input-bg-color);
+}
+
+.modal-dialog#typora-quick-open {
+    border-radius: 8px;
+}
+
+.ty-quick-open-category-title {
+    padding-left: 8px;
+    color: #BEBEBE;
+}
+
+.typora-quick-open-item-path {
+    font-size: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+/*search input*/
+.form-control {
+    border: none;
+    box-shadow: none;
+}
+
+#md-searchpanel input {
+    background: var(--input-bg-color);
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
 #md-notification:before {
     top: 10px;
 }
 
 /** focus mode */
-
 .on-focus-mode blockquote {
     border-left-color: rgba(85, 85, 85, 0.12);
 }
@@ -473,59 +562,13 @@ footer {
 }
 
 .mac-seamless-mode #typora-sidebar {
-    background-color: #fafafa;
     font-size: 1rem;
-    background-color: var(--side-bar-bg-color);
 }
-
-.md-lang {
-    color: #b4654d;
-}
-
-.html-for-mac .context-menu {
-    --item-hover-bg-color: #E6F0FE;
-}
-
 
 /*insert element*/
 
-.ty-quick-open-category.ty-has-prev .ty-quick-open-category-title {
-    border-top: none;
-}
-
 .file-list-item-summary {
     font-family: initial;
-}
-
-#typora-quick-open-input {
-    margin: 8px;
-    box-shadow: none;
-    border-radius: 2px;
-}
-
-#typora-quick-open-input input {
-    font-size: 1rem;
-    box-shadow: none;
-    padding-top: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 32px;
-    max-height: 32px;
-}
-
-.modal-dialog#typora-quick-open {
-    border-radius: 2px;
-}
-
-.ty-quick-open-category-title {
-    padding-left: 8px;
-    color: #BEBEBE;
-}
-
-.typora-quick-open-item-path {
-    font-size: 10px;
-    text-overflow: ellipsis;
-    white-space: nowrap
 }
 
 .outline-item {
@@ -570,7 +613,7 @@ span.md-def-name {
 .footnotes {
     font-size: 1rem;
     font-weight: normal;
-    color: #304455;
+    color: var(--text-color);
     position: relative;
 }
 
@@ -583,16 +626,17 @@ span.md-def-name {
 .code-tooltip-content code {
     padding: 0 2px;
     font-family: inherit;
-    color: #FFD760;
+    color: var(--footnotes-highlight);
     background-color: inherit;
 }
 
 .code-tooltip-content a {
-    color: #FFD760;
+    color: var(--footnotes-highlight);
 }
 
 div.code-tooltip-content {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 8px #00000045;
+    background: var(--footnotes-bg-color);
 }
 
 .footnotes {
@@ -601,18 +645,18 @@ div.code-tooltip-content {
 
 .md-def-name:after {
     content: ". ^";
-    color: #304455;
+    color: var(--text-color);
 }
 
 .md-def-footnote .md-def-name:before {
     content: "";
-    color: #304455;
+    color: var(--text-color);
     position: absolute;
 }
 
 .md-def-name:before {
     content: "";
-    color: #304455;
+    color: var(--text-color);
     position: absolute;
 }
 
@@ -633,14 +677,19 @@ div.code-tooltip-content {
     border-left: 4px solid var(--drake-accent);
 }
 
+#md-searchpanel .btn:not(.close-btn):hover {
+    box-shadow: none;
+    background: var(--btn-hover-bg-color);
+}
+
 /**
     code render
     Name: IntelliJ IDEA darcula theme
     From IntelliJ IDEA by JetBrains
  */
 .cm-s-inner.CodeMirror {
-    background: #2B2B2B;
-    color: #A9B7C6;
+    background: var(--code-block-bg-color);
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-meta {
@@ -781,8 +830,12 @@ div.code-tooltip-content {
     background: #214283 !important;
 }
 
+.cm-s-typora-default .CodeMirror-selectedtext {
+    background: var(--select-text-bg-color) !important;
+}
+
 .cm-overlay.CodeMirror-selectedtext {
-    background: #B5D6FC !important;
+    background: var(--select-text-bg-color) !important;
 }
 
 .cm-s-inner div.CodeMirror-cursor {
