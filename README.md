@@ -11,18 +11,20 @@
 1. 本主题具备三种风格
 1. 截图使用默认的字体: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), 下载安装即可
 
-   如果需要自定义字体, 请修改CSS文件`第4行`字体名称为你想要的字体即可替换全部显示字体
-
-   ```css
-   --monospace: "JetBrains Mono", monospace;
-   ```
-
-   - 如果第一个字体不支持中文, 则会采用第二个字体的中文, 
-   - 如果第一个字体未安装则会使用后续字体
-
 1. 脚注样式来自于`维基百科`
-
+1. 更方便的配色定制(主题组件的配色全部使用变量)
 1. 推荐使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
+
+
+
+如果需要自定义字体, 请修改CSS文件`第4行`字体名称为你想要的字体即可替换全部显示字体
+
+```css
+--monospace: "JetBrains Mono", monospace;
+```
+
+- 如果第一个字体不支持中文, 则会采用第二个字体的中文, 
+- 如果第一个字体未安装则会使用后续字体
 
 ## 安装方式
 
@@ -64,7 +66,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 这里演示脚注内容[^2]
 
-> 推荐用于醒目标注内容
+> 如果对目前配色有不满的地方可以打开`.css`主题文件直接修改对应变量值, 本主题已根据语法定制好全部色值
 
 
 
@@ -76,6 +78,10 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 提供多种配置预览
 
+### drake-dark
+
+<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"/>
+
 ### drake
 
 <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png"/> 
@@ -83,10 +89,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
 ### drake-light
 
 <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png"/> 
-
-### drake-dark
-
-<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"/>
 
 ## License
 
