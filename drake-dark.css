@@ -29,7 +29,7 @@
     --search-select-text-color: var(--bg-color);
     --active-file-border-color: var(--drake-accent);
     --item-hover-bg-color: #3c3d3e;
-    --select-text-bg-color: rgba(52, 115, 176, 0.41);
+    --select-text-bg-color: #3473B068;
     --window-border: 1px solid #282828;
 
     --drake-accent: #3473b0;
@@ -38,7 +38,7 @@
     --code-block-text-color: #A9B7C6;
     --title-text-color: #acb7c4;
     --blockquote-border-color: var(--drake-accent);
-    --blockquote-bg-color: rgba(52, 115, 176, 0.41);
+    --blockquote-bg-color: #3a4451;
     --strong-text-color: var(--bg-color);
     --strong-bg-color: var(--title-text-color);
     --h2-underline-bg: var(--title-text-color);
@@ -53,6 +53,8 @@
     --table-bg-color: #3c3d3e;
     --input-bg-color: #3c3d3e;
     --btn-hover-bg-color: #f2f2f2;
+    --checkbox-checked: url("data:image/svg+xml,%3Csvg class='icon' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cpath d='M425.984 726.016l384-384-59.99-61.995-324.01 324.011-152.021-152.021L213.973 512zm384-598.016q36.01 0 61.013 25.984T896 213.974v596.01q0 34.005-25.003 59.99t-61.013 25.983h-596.01q-36.011 0-61.014-25.984t-25.003-59.989v-596.01q0-34.006 25.003-59.99T213.973 128h596.011z' fill='%2365b73b'/%3E%3C/svg%3E");
+    --checkbox-unchecked: url("data:image/svg+xml,%3Csvg class='icon' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cpath d='M810.667 213.333v597.334H213.333V213.333h597.334m0-85.333H213.333C166.4 128 128 166.4 128 213.333v597.334C128 857.6 166.4 896 213.333 896h597.334C857.6 896 896 857.6 896 810.667V213.333C896 166.4 857.6 128 810.667 128z' fill='%23acb7c4'/%3E%3C/svg%3E");
 }
 
 html {
@@ -705,6 +707,43 @@ div.code-tooltip-content {
 #md-searchpanel .btn:not(.close-btn):hover {
     box-shadow: none;
     background: var(--btn-hover-bg-color);
+}
+
+/*checkbox*/
+#write input[type=checkbox] {
+    opacity: 0;
+    height: 1.6rem;
+    width: 1.6rem;
+    left: -3rem;
+    margin-left: 0;
+    margin-top: 0;
+    top: 0;
+}
+
+#write .ul-list li.md-task-list-item.task-list-done p {
+    text-decoration: line-through;
+}
+
+#write .ul-list li.md-task-list-item.task-list-done::before {
+    content: "";
+    background: var(--checkbox-checked) 0 0 no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    position: absolute;
+    height: 1.6rem;
+    width: 1.6rem;
+    left: -3rem;
+}
+
+#write .ul-list li.md-task-list-item.task-list-not-done::before {
+    content: "";
+    background: var(--checkbox-unchecked) 0 0 no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    position: absolute;
+    height: 1.6rem;
+    width: 1.6rem;
+    left: -3rem;
 }
 
 /**
