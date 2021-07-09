@@ -17,7 +17,7 @@
 :root {
     --text-color: #333333;
     --bg-color: #ffffff;
-    --monospace: "JetBrains Mono", monospace;
+    --monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);

@@ -17,17 +17,17 @@
 :root {
     --bg-color: #2b2b2b;
     --text-color: #acb7c4;
-    --monospace: "JetBrains Mono", monospace;
+    --monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
-    --active-file-bg-color: var(--item-hover-bg-color);
+    --active-file-border-color: var(--drake-accent);
     --rawblock-edit-panel-bd: var(--code-block-bg-color);
 
     --md-char-color: #535455;
+    --active-file-bg-color: var(--item-hover-bg-color);
     --side-bar-bg-color: var(--bg-color);
     --search-select-bg-color: #ffffff;
     --search-select-text-color: var(--bg-color);
-    --active-file-border-color: var(--drake-accent);
     --item-hover-bg-color: #3c3d3e;
     --select-text-bg-color: #3473B068;
     --window-border: 1px solid #282828;
