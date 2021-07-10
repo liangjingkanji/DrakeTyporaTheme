@@ -534,7 +534,6 @@ table tr td:last-child {
     line-height: 32px;
     max-height: 32px;
     border: none;
-    background-color: var(--input-bg-color);
 }
 
 .modal-dialog#typora-quick-open {
