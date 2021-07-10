@@ -58,7 +58,6 @@ body {
     -webkit-font-feature-settings: "liga" on, "calt" on;
     -webkit-font-smoothing: subpixel-antialiased;
     text-rendering: optimizeLegibility;
-    line-height: 1.6rem;
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden;
@@ -500,9 +499,10 @@ table tr td:last-child {
 
 .typora-quick-open-item {
     font-size: 1rem !important;
-    height: 48px;
+    height: 50px;
     padding-left: 8px;
     padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 #typora-quick-open {
@@ -538,22 +538,54 @@ table tr td:last-child {
 .ty-quick-open-category-title {
     padding-left: 8px;
     color: #BEBEBE;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
 }
 
 .typora-quick-open-item-path {
-    font-size: 10px;
+    font-size: 0.8rem;
     text-overflow: ellipsis;
-    white-space: nowrap
+    white-space: nowrap;
+    margin-top: 1px;
 }
 
 /*search input*/
 .form-control {
     border: none;
+    border-radius: 2px;
     box-shadow: none;
+}
+
+#md-searchpanel .btn {
+    border-radius: 2px;
+}
+
+#search-panel-replaceall-btn {
+    padding-right: 5px !important;
+    text-align: center !important;
+}
+
+#search-panel-replace-btn {
+    text-align: center !important;
 }
 
 #md-searchpanel input {
     background: var(--input-bg-color);
+    border-radius: 2px;
+}
+
+.searchpanel-search-option-btn {
+    border-radius: 2px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+
+.searchpanel-search-option-btn.active {
+    background: transparent;
+    color: var(--text-color);
+    background: var(--text-color);
+    color: var(--bg-color);
 }
 
 .form-control:focus {
@@ -739,6 +771,10 @@ div.code-tooltip-content {
 }
 
 /*insert table*/
+.btn {
+    border-radius: 2px;
+}
+
 .modal-content {
     border-radius: 8px;
 }
@@ -768,7 +804,7 @@ div.code-tooltip-content {
 
 #table-insert-col, #table-insert-row {
     background: var(--input-bg-color);
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 /**
