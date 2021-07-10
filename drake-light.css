@@ -338,9 +338,8 @@ li p.first {
     display: inline-block;
 }
 
-ul,
-ol {
-    padding-left: 30px;
+ul, ol {
+    padding-inline-start: 2em;
 }
 
 ul:first-child,
@@ -705,8 +704,7 @@ div.code-tooltip-content {
     opacity: 0;
     height: 1.6rem;
     width: 1.6rem;
-    left: -3rem;
-    margin-left: 0;
+    margin-left: -2em;
     margin-top: 0;
     top: 0;
 }
@@ -723,7 +721,7 @@ div.code-tooltip-content {
     position: absolute;
     height: 1.6rem;
     width: 1.6rem;
-    left: -3rem;
+    margin-left: -2em;
 }
 
 #write .ul-list li.md-task-list-item.task-list-not-done::before {
@@ -734,7 +732,7 @@ div.code-tooltip-content {
     position: absolute;
     height: 1.6rem;
     width: 1.6rem;
-    left: -3rem;
+    margin-left: -2em;
 }
 
 /**
