@@ -744,6 +744,39 @@ div.code-tooltip-content {
     margin-left: -2em;
 }
 
+/*insert table*/
+.modal-content {
+    border-radius: 8px;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: var(--btn-hover-bg-color);
+    color: var(--drake-highlight);
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: var(--drake-highlight);
+}
+
+.btn-default {
+    background-color: transparent;
+}
+
+.btn:active {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+#table-insert-col, #table-insert-row {
+    background: var(--input-bg-color);
+    border-radius: 4px;
+}
+
 /**
     code render
     Name: IntelliJ IDEA darcula theme

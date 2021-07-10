@@ -5,8 +5,8 @@
 
 
 <p align="center">
-<img src="https://img.shields.io/badge/author-天南第一键修-brightgreen"/>
-<img src="https://img.shields.io/badge/theme-Typora-orange.svg"/>
+<a href="https://github.com/liangjingkanji"><img src="https://img.shields.io/badge/author-天南第一键修-brightgreen"/></a>
+<a href="https://github.com/liangjingkanji/DrakeTyporaTheme"><img src="https://img.shields.io/badge/theme-Typora-orange.svg"/></a>
 <img src="https://img.shields.io/badge/license-Apache-blue"/>
 <a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
 </p>
