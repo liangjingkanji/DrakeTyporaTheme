@@ -12,11 +12,12 @@
 </p><br>
 
 - 本主题具备5种风格
-- 脚注样式来自于`维基百科`
+- 如果你使用本主题建议star以及watch本仓库接受更新通知
 - 推荐使用本主题制作简洁的[简历模板](https://github.com/liangjingkanji/Resume-Template),
   可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 
 <br>
+
 **自定义字体**
 
 如果需要自定义字体, 请修改CSS文件`第4行`字体名称为你想要的字体即可替换全部显示字体
