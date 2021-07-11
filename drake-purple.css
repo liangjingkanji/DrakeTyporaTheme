@@ -15,14 +15,14 @@
  */
 
 :root {
-    --bg-color: #2b2b2b;
+    --bg-color: #282838;
     --text-color: #acb7c4;
     --monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
     --rawblock-edit-panel-bd: var(--code-block-bg-color);
-    --item-hover-bg-color: #3c3d3e;
+    --item-hover-bg-color: #1d1d26;
     --active-file-bg-color: var(--item-hover-bg-color);
 
     --md-char-color: #535455;
@@ -32,25 +32,25 @@
     --select-text-bg-color: #3473B068;
     --window-border: 1px solid #282828;
 
-    --drake-accent: #3473b0;
-    --drake-highlight: #58a1d6;
+    --drake-accent: #904ac2;
+    --drake-highlight: #b160ea;
     --a-text-color: var(--drake-highlight);
     --outline-active-color: var(--a-text-color);
-    --code-block-bg-color: #3c3d3e;
+    --code-block-bg-color: #1d1d26;
     --code-block-text-color: #A9B7C6;
     --title-text-color: #acb7c4;
     --blockquote-border-color: var(--drake-accent);
-    --blockquote-bg-color: #3a4451;
+    --blockquote-bg-color: rgba(25, 25, 49, 0.53);
     --strong-text-color: var(--title-text-color);
     --h2-underline-bg: var(--title-text-color);
     --horizontal-divider-color: #e7e7e7;
     --height-light-bg-color: #e7ecf3;
-    --yaml-text-color: #787878;
+    --yaml-text-color: #676773;
     --yaml-bg-color: var(--code-block-bg-color);
     --footnotes-bg-color: #3c3d3e;
     --footnotes-highlight: #FFD760;
-    --table-border-color: #535455;
-    --table-header-bg-color: #3c3d3e;
+    --table-border-color: var(--item-hover-bg-color);
+    --table-header-bg-color: #2c2c47;
     --table-bg-color: var(--table-header-bg-color);
     --input-bg-color: var(--item-hover-bg-color);
     --btn-hover-bg-color: var(--item-hover-bg-color);
