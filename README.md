@@ -9,13 +9,14 @@
 <a href="https://github.com/liangjingkanji/DrakeTyporaTheme"><img src="https://img.shields.io/badge/theme-Typora-orange.svg"/></a>
 <img src="https://img.shields.io/badge/license-Apache-blue"/>
 <a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
-</p>
+</p><br>
 
-- 本主题具备三种风格
+- 本主题具备5种风格
 - 脚注样式来自于`维基百科`
 - 推荐使用本主题制作简洁的[简历模板](https://github.com/liangjingkanji/Resume-Template),
   可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 
+<br>
 **自定义字体**
 
 如果需要自定义字体, 请修改CSS文件`第4行`字体名称为你想要的字体即可替换全部显示字体
@@ -35,7 +36,7 @@
 
 -   [ ] 通过`设置 -> 外观 -> 打开主题文件夹`打开theme目录
 
--   [ ] 复制`drake.css` 到`theme`目录下然后重启, 选择菜单栏主题
+-   [ ] 复制你想要的对应主题名称`*.css`后缀文件 到`theme`目录下然后重启, 选择菜单 -> 主题
 
 | 字体                                                       | 描述                                                 |
 | ---------------------------------------------------------- | ---------------------------------------------------- |
@@ -46,17 +47,13 @@
 
 提供多种配置预览, 点击查看高清大图
 
-### drake-dark
-
-<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="600"/> 
-
-### drake
-
-<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="600"/> 
-
-### drake-light
-
-<img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="600"/> 
+| 主题名称     | 预览图                                                       |
+| ------------ | ------------------------------------------------------------ |
+| drake        | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="500"/> |
+| drake-dark   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/> |
+| drake-purple | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-purple.png" width="500"/> |
+| drake-light  | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/> |
+| drake-vue    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue.png" width="500"/> |
 
 ## License
 
