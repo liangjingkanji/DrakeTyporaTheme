@@ -11,7 +11,7 @@
 <a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
 </p><br>
 
-- 本主题具备5种风格
+- 本主题具备6种风格
 - 如果你使用本主题建议star以及watch本仓库接受更新通知
 - 推荐使用本主题制作简洁的[简历模板](https://github.com/liangjingkanji/Resume-Template),
   可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
@@ -53,6 +53,7 @@
 | drake        | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="500"/> |
 | drake-dark   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/> |
 | drake-purple | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-purple.png" width="500"/> |
+| drake-ayu | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-ayu.png" width="500"/> |
 | drake-light  | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/> |
 | drake-vue    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue.png" width="500"/> |
 
