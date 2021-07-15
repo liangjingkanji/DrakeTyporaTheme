@@ -36,9 +36,9 @@
     --drake-highlight: #b160ea;
     --a-text-color: var(--drake-highlight);
     --outline-active-color: var(--a-text-color);
-    --code-block-bg-color: #1d1d26;
+    --code-block-bg-color: var(--item-hover-bg-color);
     --code-block-text-color: #A9B7C6;
-    --title-text-color: #acb7c4;
+    --title-text-color: var(--text-color);
     --blockquote-border-color: var(--drake-accent);
     --blockquote-bg-color: rgba(25, 25, 49, 0.53);
     --strong-text-color: var(--title-text-color);
@@ -47,7 +47,7 @@
     --height-light-bg-color: #e7ecf3;
     --yaml-text-color: #676773;
     --yaml-bg-color: var(--code-block-bg-color);
-    --footnotes-bg-color: #3c3d3e;
+    --footnotes-bg-color: var(--item-hover-bg-color);
     --footnotes-highlight: #FFD760;
     --table-border-color: var(--item-hover-bg-color);
     --table-header-bg-color: #2c2c47;
