@@ -22,7 +22,7 @@
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
     --rawblock-edit-panel-bd: var(--code-block-bg-color);
-    --item-hover-bg-color: #3c3d3e;
+    --item-hover-bg-color: #222222;
     --active-file-bg-color: var(--item-hover-bg-color);
 
     --md-char-color: #535455;
@@ -49,7 +49,7 @@
     --yaml-bg-color: var(--code-block-bg-color);
     --footnotes-bg-color: var(--item-hover-bg-color);
     --footnotes-highlight: #FFD760;
-    --table-border-color: #535455;
+    --table-border-color: #383838;
     --table-header-bg-color: var(--item-hover-bg-color);
     --table-bg-color: var(--table-header-bg-color);
     --input-bg-color: var(--item-hover-bg-color);
