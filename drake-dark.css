@@ -40,7 +40,7 @@
     --code-block-text-color: #A9B7C6;
     --title-text-color: var(--text-color);
     --blockquote-border-color: var(--drake-accent);
-    --blockquote-bg-color: #3a4451;
+    --blockquote-bg-color: rgba(52, 115, 176, 0.1);
     --strong-text-color: var(--title-text-color);
     --h2-underline-bg: var(--title-text-color);
     --horizontal-divider-color: #e7e7e7;
