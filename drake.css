@@ -205,7 +205,7 @@ h2 {
     display: inline-block;
 }
 
-h2 .md-plain:after {
+h2:after {
     display: block;
     content: '';
     height: 2px;
