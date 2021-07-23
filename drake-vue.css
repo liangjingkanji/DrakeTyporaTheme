@@ -401,10 +401,6 @@ table tr td:last-child {
     background-color: var(--table-header-bg-color);
 }
 
-#write .CodeMirror-gutters {
-    border-right: none;
-}
-
 /* height light. */
 #write mark {
     background-color: var(--height-light-bg-color);
@@ -882,4 +878,17 @@ div.code-tooltip-content {
 
 .cm-s-inner span.cm-bracket {
     color: black;
+}
+
+.cm-s-inner .CodeMirror-gutters {
+    border-right: 1px solid rgba(120, 120, 120, 0.3);
+    border-radius: 2px;
+    width: 2.2rem !important;
+}
+
+.cm-s-inner .CodeMirror-linenumber {
+    color: #787878;
+    text-align: center;
+    width: 2.2rem !important;
+    padding: 0;
 }

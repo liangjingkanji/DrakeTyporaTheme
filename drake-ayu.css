@@ -408,10 +408,6 @@ table tr td:last-child {
     background-color: var(--table-header-bg-color);
 }
 
-#write .CodeMirror-gutters {
-    border-right: none;
-}
-
 /* height light. */
 #write mark {
     background-color: var(--height-light-bg-color);
@@ -929,20 +925,17 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner .CodeMirror-gutters {
-    background: #313335;
-    border-right: 1px solid #313335;
+    border-right: none;
+    border-radius: 2px;
+    background: var(--bg-color);
+    width: 2.2rem !important;
 }
 
-.cm-s-inner .CodeMirror-guttermarker {
-    color: #FFEE80;
-}
-
-.cm-s-inner .CodeMirror-guttermarker-subtle {
-    color: #D0D0D0;
-}
-
-.cm-s-inner .CodeMirrir-linenumber {
-    color: #3f4655;
+.cm-s-inner .CodeMirror-linenumber {
+    color: #5c6773;
+    text-align: center;
+    width: 2.2rem !important;
+    padding: 0;
 }
 
 .cm-s-inner .CodeMirror-matchingbracket {
