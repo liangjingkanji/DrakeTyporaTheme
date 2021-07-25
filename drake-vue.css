@@ -15,9 +15,11 @@
  */
 
 :root {
+    --monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", "Fira Code", Menlo, "Ubuntu Mono", Consolas, monospace; /*code font*/
+    --text-font: var(--monospace); /*default font*/
+
     --text-color: #304455;
     --bg-color: #ffffff;
-    --monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
@@ -56,7 +58,7 @@ html {
 }
 
 body {
-    font-family: var(--monospace) !important;
+    font-family: var(--text-font) !important;
     color: var(--text-color);
     -webkit-font-feature-settings: "liga" on, "calt" on;
     -webkit-font-smoothing: subpixel-antialiased;

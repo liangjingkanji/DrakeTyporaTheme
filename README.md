@@ -11,7 +11,7 @@
 <a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
 </p><br>
 
-- 本主题具备6种风格
+- 本主题具备6种风格, [点击下载主题](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 如果你使用本主题建议star以及watch本仓库接受更新通知
 - 推荐使用本主题制作简洁的[简历模板](https://github.com/liangjingkanji/Resume-Template),
   可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
@@ -20,14 +20,18 @@
 
 **自定义字体**
 
-如果需要自定义字体, 请修改CSS文件`第4行`字体名称为你想要的字体即可替换全部显示字体
+如果需要自定义字体, 请修改CSS文件`第18行`字体名称列表替换为你想要的字体即可替换全部显示字体, 比如以下
 
 ```css
---monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
+--monospace:  "你想要的代码字体"  ,  HYZhengYuan,  "JetBrains Mono"  ,  "Fira Code"  ,  Menlo,  "Ubuntu Mono"  ,  Consolas, monospace  ; /*code font*/
+--text-font:  "你想要的正文字体"  ,  HYZhengYuan  ; /*default font*/
 ```
 
-1. 如果第一个字体不支持中文, 则会采用第二个字体的中文
+1. 字体可以同时设置多个, 如果第一个字体不支持中文, 则会采用第二个字体的中文
 2. 如果第一个字体未安装则会使用后续字体
+
+<br>
+**字体大小**: 打开设置界面 -> 外观 -> 字体大小 -> 自定义字体大小
 
 > 如果对目前配色有不满的地方可以打开`.css`主题文件直接修改对应变量值, 本主题已根据语法定制好全部色值
 
