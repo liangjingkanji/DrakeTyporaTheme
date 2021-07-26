@@ -6,12 +6,13 @@
 
 <p align="center">
 <a href="https://github.com/liangjingkanji"><img src="https://img.shields.io/badge/author-天南第一键修-brightgreen"/></a>
-<a href="https://github.com/liangjingkanji/DrakeTyporaTheme"><img src="https://img.shields.io/badge/theme-Typora-orange.svg"/></a>
-<img src="https://img.shields.io/badge/license-Apache-blue"/>
+<a href="https://theme.typora.io/theme/Drake"><img src="https://img.shields.io/badge/theme-Typora-orange.svg"/></a>
+<a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/license-Apache-blue"/></a>
 <a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
+<a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master"><img src="https://img.shields.io/badge/Download-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98-brightgreen"/></a>
 </p><br>
 
-- 本主题具备6种风格, [点击下载主题](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
+- 本主题具备6种风格, [点击下载主题(click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 如果你使用本主题建议star以及watch本仓库接受更新通知
 - 推荐使用本主题制作简洁的[简历模板](https://github.com/liangjingkanji/Resume-Template),
   可导出为静态网页部署[在线简历](https://liangjingkanji.github.io/Resume-Template/)
