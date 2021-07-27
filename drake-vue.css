@@ -17,6 +17,7 @@
 :root {
     --monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", "Fira Code", Menlo, "Ubuntu Mono", Consolas, monospace; /*code font*/
     --text-font: var(--monospace); /*default font*/
+    --title-font: var(--monospace); /*title font*/
 
     --text-color: #304455;
     --bg-color: #ffffff;
@@ -181,6 +182,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: var(--title-font);
     position: relative;
     margin-top: 2rem;
     margin-bottom: 1rem;
