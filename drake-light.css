@@ -896,3 +896,7 @@ div.code-tooltip-content {
     width: 2.2rem !important;
     padding: 0;
 }
+
+*, :after, :before {
+    box-sizing: unset;
+}

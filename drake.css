@@ -957,3 +957,7 @@ div.code-tooltip-content {
 .cm-s-inner div.CodeMirror-cursor {
     border-left: 1px solid #ffffff;
 }
+
+*, :after, :before {
+    box-sizing: unset;
+}
