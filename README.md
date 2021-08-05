@@ -23,7 +23,7 @@
 如果需要自定义字体, 请修改CSS文件`第18行`字体名称列表替换为你想要的字体即可替换全部显示字体, 比如以下
 
 ```css
---monospace: "代码字体", HYZhengYuan, "JetBrains Mono", "Fira Code", Menlo, "Ubuntu Mono", Consolas, monospace;
+--monospace: "代码字体", HYZhengYuan, "JetBrains Mono", "Fira Code", Menlo, "Ubuntu Mono", Consolas;
 --text-font: "正文字体",  HYZhengYuan;
 --title-font: "标题字体";
 ```
