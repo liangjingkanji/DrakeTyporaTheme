@@ -15,7 +15,7 @@
  */
 
 :root {
-    --monospace: "Iosevka SS16 Medium", HYZhengYuan, "JetBrains Mono", "Fira Code", Menlo, "Ubuntu Mono", Consolas, monospace; /*code font*/
+    --monospace: "Iosevka SS16 Medium", HYZhengYuan, "JetBrains Mono", "Fira Code", Menlo, "Ubuntu Mono", Consolas; /*code font*/
     --text-font: var(--monospace); /*default font*/
     --title-font: var(--monospace); /*title font*/
 
