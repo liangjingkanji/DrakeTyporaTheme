@@ -202,12 +202,12 @@ h1 {
     margin-top: 0;
 }
 
-h2 {
+h2.md-end-block.md-heading {
     font-size: 1.6rem;
     display: inline-block;
 }
 
-h2:after {
+h2.md-end-block.md-heading:after {
     display: block;
     content: '';
     height: 2px;
