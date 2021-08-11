@@ -886,17 +886,8 @@ div.code-tooltip-content {
 
 .cm-s-inner .CodeMirror-gutters {
     border-right: 1px solid rgba(120, 120, 120, 0.3);
-    border-radius: 2px;
-    width: 2.2rem !important;
 }
 
 .cm-s-inner .CodeMirror-linenumber {
     color: #787878;
-    text-align: center;
-    width: 2.2rem !important;
-    padding: 0;
-}
-
-*, :after, :before {
-    box-sizing: unset;
 }
