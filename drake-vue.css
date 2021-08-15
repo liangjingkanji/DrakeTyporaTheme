@@ -600,7 +600,7 @@ footer {
     font-family: initial;
 }
 
-/*side bar*/
+/*sidebar*/
 .file-node-content:hover .file-node-icon,
 .file-node-content:hover .file-node-open-state {
     visibility: visible;
@@ -617,6 +617,10 @@ footer {
 .file-list-item-summary, .file-list-item-parent-loc, .file-list-item-time, .file-list-item-summary {
     font-size: 0.9rem !important;
     font-family: var(--text-font);
+}
+
+.file-list-item-file-ext-part {
+    display: none;
 }
 
 .outline-item {
