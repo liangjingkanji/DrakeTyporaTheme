@@ -18,7 +18,9 @@
   并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 
 
-## 自定义字体
+## Customize
+
+**设置字体**
 
 如果需要自定义字体, 请修改CSS文件`第18行`字体名称列表替换为你想要的字体即可替换全部显示字体, 比如以下
 
@@ -38,9 +40,13 @@
 | [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/) | JetBrains Mono. 给开发人员的字体                     |
 | [Fira Code](https://github.com/tonsky/FiraCode) | Free monospaced font with programming ligature         |
 
-**字体大小** : 打开设置界面 -> 外观 -> 字体大小 -> 自定义字体大小
+**设置字体大小**
 
-> 如果对配色不满意可以打开`*.css`主题文件修改对应变量值, 本主题已根据语法定制好字体/配色
+打开设置界面 -> 外观 -> 字体大小 -> 自定义字体大小
+
+**设置配色**
+
+如果对配色不满意可以打开`*.css`主题文件修改对应变量值, 本主题已根据语法定制好字体/配色
 
 
 ## Install
