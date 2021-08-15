@@ -496,10 +496,6 @@ table tr td:last-child {
     padding-bottom: 20px;
 }
 
-.sidebar-tabs {
-    border-bottom: none;
-}
-
 .typora-quick-open-item {
     font-size: 1rem !important;
     height: 50px;
@@ -611,26 +607,26 @@ footer {
     font-family: initial;
 }
 
+/*side bar*/
 .file-node-content:hover .file-node-icon,
 .file-node-content:hover .file-node-open-state {
     visibility: visible;
 }
 
-.mac-seamless-mode #typora-sidebar {
+#typora-sidebar {
     font-size: 1rem;
 }
 
-/*insert element*/
+.sidebar-tabs {
+    border-bottom: none;
+}
 
-.file-list-item-summary {
-    font-family: initial;
+.file-list-item-summary, .file-list-item-parent-loc, .file-list-item-time, .file-list-item-summary {
+    font-size: 0.9rem !important;
+    font-family: var(--text-font);
 }
 
 .outline-item {
-    font-size: 1rem;
-}
-
-.sidebar-tab {
     font-size: 1rem;
 }
 
