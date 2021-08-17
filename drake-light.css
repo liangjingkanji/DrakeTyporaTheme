@@ -821,7 +821,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-variable {
-    color: black;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-variable-2 {
@@ -833,7 +833,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-property {
-    color: black;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-keyword {
@@ -841,7 +841,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-operator {
-    color: black;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-comment {
@@ -857,7 +857,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-qualifier {
-    color: black;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-error {
@@ -865,11 +865,11 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-attribute {
-    color: black;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-tag {
-    color: black;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-link {
@@ -877,11 +877,11 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-builtin {
-    color: black;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-bracket {
-    color: black;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner .CodeMirror-gutters {
