@@ -809,15 +809,15 @@ div.code-tooltip-content {
     From IntelliJ IDEA by JetBrains
  */
 .cm-s-inner span.cm-number {
-    color: #4A86E8;
+    color: #a32eff;
 }
 
 .cm-s-inner span.cm-atom {
-    color: #9E880D;
+    color: #a32eff;
 }
 
 .cm-s-inner span.cm-def {
-    color: #00f;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-variable {
@@ -837,7 +837,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-keyword {
-    color: #708;
+    color: #d63200;
 }
 
 .cm-s-inner span.cm-operator {
@@ -849,11 +849,11 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-string {
-    color: #008000;
+    color: #42b983;
 }
 
 .cm-s-inner span.cm-string-2 {
-    color: #008000;
+    color: #42b983;
 }
 
 .cm-s-inner span.cm-qualifier {
@@ -865,11 +865,11 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-attribute {
-    color: var(--code-block-text-color);
+    color: #2973b7;
 }
 
 .cm-s-inner span.cm-tag {
-    color: var(--code-block-text-color);
+    color: #2973b7;
 }
 
 .cm-s-inner span.cm-link {
@@ -881,7 +881,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-bracket {
-    color: var(--code-block-text-color);
+    color: #2973b7;
 }
 
 .cm-s-inner .CodeMirror-gutters {
