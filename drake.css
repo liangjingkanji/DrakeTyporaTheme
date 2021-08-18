@@ -830,11 +830,11 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-variable {
-    color: #A9B7C6;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-variable-2 {
-    color: #A9B7C6;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-variable-3 {
@@ -850,7 +850,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-operator {
-    color: #A9B7C6;
+    color: var(--code-block-text-color);
 }
 
 .cm-s-inner span.cm-string {
@@ -918,7 +918,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner .CodeMirror-cursor {
-    border-left: 1px solid #A9B7C6;
+    border-left: 1px solid var(--code-block-text-color);
 }
 
 .cm-s-inner .CodeMirror-gutters {
