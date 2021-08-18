@@ -581,8 +581,6 @@ table tr td:last-child {
 }
 
 .searchpanel-search-option-btn.active {
-    background: transparent;
-    color: var(--text-color);
     background: var(--text-color);
     color: var(--bg-color);
 }
