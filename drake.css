@@ -949,5 +949,5 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner div.CodeMirror-cursor {
-    border-left: 1px solid #ffffff;
+    border-left: 1px solid var(--text-color);
 }

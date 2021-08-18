@@ -911,13 +911,13 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner span.cm-matchhighlight {
-    color: #FFFFFF;
+    color: var(--code-block-text-color);
     background-color: rgba(50, 89, 48, .7);
     font-weight: normal;
 }
 
 .cm-s-inner span.cm-searching {
-    color: #FFFFFF;
+    color: var(--code-block-text-color);
     background-color: rgba(61, 115, 59, .7);
     font-weight: normal;
 }
@@ -959,5 +959,5 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner div.CodeMirror-cursor {
-    border-left: 1px solid #ffffff;
+    border-left: 1px solid var(--text-color);
 }
