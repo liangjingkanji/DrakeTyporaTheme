@@ -961,3 +961,49 @@ div.code-tooltip-content {
 .cm-s-inner div.CodeMirror-cursor {
     border-left: 1px solid var(--text-color);
 }
+
+/* UI Fix */
+
+
+/* 大菜单界面修复 */
+
+/* 背景重置 */
+#megamenu-content{
+    background-image: none !important;
+    background-color: var(--bg-color);
+}
+
+/* 左侧 选项栏颜色调整 */
+#megamenu-menu-sidebar{
+    background-color: var(--table-border-color);
+    --item-hover-bg-color: #464E5E
+}
+
+
+.megamenu-section {
+    background-color: var(--bg-color);
+}
+
+
+/* 顶部栏高度修复 */
+#top-titlebar {
+    height: inherit;
+    background-color: var(--bg-color);
+}
+
+
+/* 最近文件 */
+
+/* 按钮背景颜色重置  */
+#recent-file-panel-action-btn{
+    
+    background-color: inherit;
+}
+/* 最近文件表格 奇偶项的背景颜色 */
+.recent-file-item {
+    background-color: var(--table-border-color) !important;
+    
+}
+.recent-file-item:nth-child(2n){
+    background-color: var(--table-header-bg-color) !important;
+}
