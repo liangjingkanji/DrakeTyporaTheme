@@ -959,7 +959,7 @@ div.code-tooltip-content {
 }
 
 .cm-s-inner div.CodeMirror-cursor {
-    border-left: 1px solid var(--text-color);
+    border-left: 1px solid var(--code-block-text-color);
 }
 
 /* UI Fix */
@@ -996,13 +996,13 @@ div.code-tooltip-content {
 
 /* 按钮背景颜色重置  */
 #recent-file-panel-action-btn{
-    
+
     background-color: inherit;
 }
 /* 最近文件表格 奇偶项的背景颜色 */
 .recent-file-item {
     background-color: var(--table-border-color) !important;
-    
+
 }
 .recent-file-item:nth-child(2n){
     background-color: var(--table-header-bg-color) !important;
