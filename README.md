@@ -25,7 +25,7 @@
 如果需要自定义字体, 请修改CSS文件`第18行`字体名称列表替换为你想要的字体即可替换全部显示字体, 比如以下
 
 ```css
---monospace: "代码字体", HYZhengYuan, "JetBrains Mono", "Fira Code", Menlo, "Ubuntu Mono", Consolas;
+--monospace: "代码字体", "JetBrains Mono", HYZhengYuan, "Fira Code", Menlo, "Ubuntu Mono", Consolas;
 --text-font: "正文字体",  HYZhengYuan;
 --title-font: "标题字体";
 ```
@@ -34,11 +34,10 @@
 2. 如果第一个字体未安装则会使用后续字体
 
 
-| 推荐字体                                                       | 描述                                                 |
-| ---------------------------------------------------------- | ---------------------------------------------------- |
-| [Iosevka](https://github.com/be5invis/Iosevka)             | Versatile typeface for code, from code. 预览图中字体 |
-| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/) | JetBrains Mono. 给开发人员的字体                     |
-| [Fira Code](https://github.com/tonsky/FiraCode) | Free monospaced font with programming ligature         |
+| 推荐字体                                                   | 描述                                           |
+| ---------------------------------------------------------- | ---------------------------------------------- |
+| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/) | JetBrains Mono. 给开发人员的字体               |
+| [Fira Code](https://github.com/tonsky/FiraCode)            | Free monospaced font with programming ligature |
 
 **设置字体大小**
 
