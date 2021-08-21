@@ -414,11 +414,13 @@ table tr td:last-child {
 
 /* height light. */
 #write mark {
-    background-color: var(--height-light-bg-color);
-    color: inherit;
-    border-radius: 2px;
-    padding: 2px 2px;
+    border: 1px solid var(--drake-highlight);
+    color: var(--drake-highlight);
+    background-color: var(--bg-color);
+    padding: 1px 6px;
+    border-radius: 20px;
     margin: 0 2px;
+    font-size: 0.95rem;
 }
 
 #write del {
