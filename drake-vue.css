@@ -414,7 +414,7 @@ table tr td:last-child {
 #write mark {
     border: .1em solid var(--drake-highlight);
     color: var(--drake-highlight);
-    background-color: var(--bg-color);
+    background-color: transparent;
     padding: .1rem .5rem;
     border-radius: 2rem;
     margin: 0 .2rem;
