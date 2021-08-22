@@ -368,7 +368,7 @@ table {
 }
 
 table tr {
-    border-top: 1px solid var(--table-border-color);
+    border-top: .1em solid var(--table-border-color);
     margin: 0;
     padding: 0;
 }
@@ -380,7 +380,7 @@ thead {
 
 table tr th {
     font-weight: bold;
-    border: 1px solid var(--table-border-color);
+    border: .1em solid var(--table-border-color);
     border-bottom: 0;
     text-align: left;
     margin: 0;
@@ -388,7 +388,7 @@ table tr th {
 }
 
 table tr td {
-    border: 1px solid var(--table-border-color);
+    border: .1em solid var(--table-border-color);
     text-align: left;
     margin: 0;
     padding: 6px 13px;
@@ -414,13 +414,13 @@ table tr td:last-child {
 
 /* height light. */
 #write mark {
-    border: 1px solid var(--drake-highlight);
+    border: .1em solid var(--drake-highlight);
     color: var(--drake-highlight);
     background-color: var(--bg-color);
-    padding: 1px 6px;
-    border-radius: 20px;
-    margin: 0 2px;
-    font-size: 0.95rem;
+    padding: .1rem .5rem;
+    border-radius: 2rem;
+    margin: 0 .2rem;
+    font-size: .95rem;
 }
 
 #write del {
