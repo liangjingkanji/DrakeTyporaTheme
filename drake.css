@@ -751,10 +751,6 @@ div.code-tooltip-content {
     top: 0;
 }
 
-#write .ul-list li.md-task-list-item.task-list-done p {
-    text-decoration: line-through;
-}
-
 #write .ul-list li.md-task-list-item.task-list-done::before {
     content: "";
     background: var(--checkbox-checked) 0 0 no-repeat;
