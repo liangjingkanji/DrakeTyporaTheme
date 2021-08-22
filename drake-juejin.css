@@ -176,6 +176,9 @@ img {
     margin: 0 auto;
     padding: 20px 30px 100px;
 }
+#typora-source .CodeMirror-lines {
+    max-width: 1200px;
+}
 
 #write p {
     line-height: 1.6rem;
