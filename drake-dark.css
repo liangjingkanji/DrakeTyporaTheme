@@ -153,6 +153,8 @@ blockquote {
 a {
     color: var(--a-text-color);
     padding: 0 2px;
+    text-decoration: none;
+    border-bottom: .1rem solid var(--a-text-color);
 }
 
 img {
