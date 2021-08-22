@@ -416,6 +416,19 @@ table tr td:last-child {
     font-size: .95rem;
 }
 
+/*shortcut*/
+kbd {
+    border: .1em solid #5b5b5e;
+    background: transparent;
+    color: var(--text-color);
+    margin: 0 .4rem;
+    font-size: .95rem;
+    padding: .3em .4em;
+    border-radius: .4em;
+    vertical-align: top;
+    box-shadow: .1em .1em .1em rgba(0, 0, 0, 0.3);
+}
+
 #write del {
     padding: 1px 2px;
 }
