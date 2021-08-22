@@ -12,10 +12,9 @@
 <a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master"><img src="https://img.shields.io/badge/Download-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98-brightgreen"/></a>
 </p><br>
 
-- 本主题具备6种风格, [点击下载主题(click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
+- 本主题具备<kbd>7</kbd>种风格, [点击下载主题(click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 如果你喜欢本主题希望您能star本仓库
-- 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template),
-  并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
+- 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 
 
 ## Customize
@@ -34,42 +33,45 @@
 2. 如果第一个字体未安装则会使用后续字体
 
 
+
+**字体大小**: <kbd>设置界面</kbd> -> <kbd>外观</kbd> -> <kbd>字体大小</kbd> -> <kbd>设置字体大小</kbd>
+
+
+
+> 如果对配色不满意可以打开`*.css`主题文件修改对应变量值, ==本主题可根据全局属性定制字体/配色==
+
+
+
 | 推荐字体                                                   | 描述                                           |
 | ---------------------------------------------------------- | ---------------------------------------------- |
 | [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/) | JetBrains Mono. 给开发人员的字体               |
 | [Fira Code](https://github.com/tonsky/FiraCode)            | Free monospaced font with programming ligature |
 
-**设置字体大小**
-
-打开设置界面 -> 外观 -> 字体大小 -> 自定义字体大小
-
-**设置配色**
-
-如果对配色不满意可以打开`*.css`主题文件修改对应变量值, 本主题已根据语法定制好字体/配色
-
 
 ## Install
 
-- [x] 首先确定已安装 [Typora](https://typora.io/)
+- [x] 首先确定已安装[Typora](https://typora.io/)
 
 - [ ] 通过`设置 -> 外观 -> 打开主题文件夹`打开theme目录
 
 - [ ] 复制你想要的对应主题名称`*.css`后缀文件 到`theme`目录下然后重启, 选择菜单 -> 主题
 
-<br>
+
 
 ## Preview
 
 提供多种配置预览, 点击查看高清大图
 
-| 主题名称     | 预览图                                                       |
+| 主题名称       | 预览图                                                       |
 | ------------ | ------------------------------------------------------------ |
-| drake        | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="500"/> |
-| drake-dark   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/> |
-| drake-purple | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-purple.png" width="500"/> |
-| drake-ayu | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-ayu.png" width="500"/> |
 | drake-light  | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/> |
 | drake-vue    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue.png" width="500"/> |
+| drake-juejin    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-juejin.png" width="500"/> |
+| drake-dark   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/> |
+| drake-purple | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-purple.png" width="500"/> |
+| drake-ayu    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-ayu.png" width="500"/> |
+| drake        | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="500"/> |
+
 
 ## License
 
