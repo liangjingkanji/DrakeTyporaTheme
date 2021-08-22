@@ -1006,10 +1006,6 @@ header, .context-menu, .megamenu-content, footer {
     font-weight: normal;
 }
 
-.cm-s-inner .CodeMirror-cursor {
-    border-left: 1px solid #A9B7C6;
-}
-
 .cm-s-inner .CodeMirror-gutters {
     border-right: none;
     border-radius: 2px;

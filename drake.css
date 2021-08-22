@@ -999,10 +999,6 @@ header, .context-menu, .megamenu-content, footer {
     font-weight: normal;
 }
 
-.cm-s-inner .CodeMirror-cursor {
-    border-left: 1px solid var(--code-block-text-color);
-}
-
 .cm-s-inner .CodeMirror-gutters {
     border-right: 1px solid rgba(120, 120, 120, 0.3);
 }
