@@ -47,9 +47,9 @@
     --footnotes-bg-color: #3c3d3e;
     --footnotes-highlight: #FFD760;
     --table-border-color: #dfe2e5;
-    --table-header-bg-color: #f2f2f2;
+    --table-header-bg-color: #f8f8f8;
     --table-bg-color: transparent;
-    --table-n2-bg-color: #fafafa;
+    --table-n2-bg-color: #f8f8f8;
     --input-bg-color: #f2f2f2;
     --btn-hover-bg-color: #f2f2f2;
     --checkbox-checked: url("data:image/svg+xml,%3Csvg class='icon' viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cpath d='M425.984 726.016l384-384-59.99-61.995-324.01 324.011-152.021-152.021L213.973 512zm384-598.016q36.01 0 61.013 25.984T896 213.974v596.01q0 34.005-25.003 59.99t-61.013 25.983h-596.01q-36.011 0-61.014-25.984t-25.003-59.989v-596.01q0-34.006 25.003-59.99T213.973 128h596.011z' fill='%2365b73b'/%3E%3C/svg%3E");
