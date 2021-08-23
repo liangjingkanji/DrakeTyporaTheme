@@ -55,7 +55,7 @@
     --footnotes-highlight: #FFD760;
     --table-border-color: #383838;
     --table-header-bg-color: var(--item-hover-bg-color);
-    --table-bg-color: transparent;
+    --table-bg-color: var(--bg-color);
     --table-n2-bg-color: var(--table-header-bg-color);
     --input-bg-color: var(--item-hover-bg-color);
     --btn-hover-bg-color: var(--item-hover-bg-color);
