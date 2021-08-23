@@ -12,7 +12,7 @@
 <a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master"><img src="https://img.shields.io/badge/Download-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98-brightgreen"/></a>
 </p><br>
 
-- 本主题具备<kbd>7</kbd>种风格, [点击下载主题(click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
+- 本主题具备7种风格, [点击下载主题(click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 如果你喜欢本主题希望您能star本仓库
 - 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 

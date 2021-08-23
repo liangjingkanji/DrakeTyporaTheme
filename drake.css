@@ -85,7 +85,6 @@ body {
 /*code snippet*/
 #write code, tt {
     margin: 0 2px;
-    border-radius: 2px;
     color: var(--drake-highlight);
 }
 
@@ -145,15 +144,21 @@ blockquote {
 
 /*link*/
 #write a .md-plain {
-    color: var(--a-text-color);
     border-bottom: .1rem solid var(--a-text-color);
 }
 #write a {
-    padding: 0 2px;
+    color: var(--a-text-color);
+    margin: 0 .2rem;
     text-decoration: none;
+}
+.md-htmlblock-container a:hover {
+    border-bottom: .1rem solid var(--a-text-color);
 }
 
 img {
+    border-left: none;
+    border-right: none;
+    vertical-align: baseline;
     border-radius: 2px;
 }
 
@@ -889,6 +894,10 @@ header, .context-menu, .megamenu-content, footer {
 }
 .preference-item-hint {
     font-size: 14px;
+}
+a.ty-link {
+    color: var(--a-text-color);
+    margin: 0 .2rem;
 }
 
 /**
