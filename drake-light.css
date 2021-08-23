@@ -94,25 +94,23 @@ body {
     border-radius: 2px 0 2px 2px;
     padding: 0.2rem !important;
 }
-
 .md-rawblock:hover > .md-rawblock-container {
     background: none;
 }
-
 .md-rawblock-input {
     font-size: 1rem;
 }
-
+.md-rawblock-tooltip-btn:hover {
+    background: none;
+}
 .md-rawblock:hover > .md-rawblock-tooltip {
     border-radius: 2px 2px 0 0;
     margin-bottom: 2px !important;
 }
-
 .md-rawblock-tooltip.md-rawblock-control {
     border-radius: 2px 2px 0 0;
     color: var(--code-block-text-color);
 }
-
 .md-rawblock-tooltip-name {
     color: var(--code-block-text-color);
     opacity: 1;
