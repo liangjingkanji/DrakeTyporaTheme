@@ -28,7 +28,7 @@
     --item-hover-bg-color: #E5E5E596;
     --active-file-bg-color: var(--item-hover-bg-color);
 
-    --drake-accent: #64b587;
+    --drake-accent: #31a062;
     --drake-highlight: #d63200;
     --a-text-color: var(--drake-accent);
     --outline-active-color: var(--a-text-color);
@@ -943,11 +943,11 @@ header, .context-menu, .megamenu-content, footer {
 }
 
 .cm-s-inner span.cm-string {
-    color: #42b983;
+    color: #31a062;
 }
 
 .cm-s-inner span.cm-string-2 {
-    color: #42b983;
+    color: #31a062;
 }
 
 .cm-s-inner span.cm-qualifier {
