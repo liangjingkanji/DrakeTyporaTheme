@@ -47,7 +47,7 @@
     --blockquote-bg-color: rgba(52, 115, 176, 0.1);
     --strong-text-color: var(--title-text-color);
     --h2-underline-bg: var(--title-text-color);
-    --horizontal-divider-color: #e7e7e7;
+    --horizontal-divider-color: var(--title-text-color);
     --height-light-bg-color: #e7ecf3;
     --yaml-text-color: #787878;
     --yaml-bg-color: var(--code-block-bg-color);
