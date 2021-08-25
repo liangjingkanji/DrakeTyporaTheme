@@ -738,6 +738,11 @@ div.code-tooltip-content {
     position: absolute;
 }
 
+.md-content.md-url, .md-def-content.md-def-url.md-auto-disp {
+    text-decoration: none;
+    border-bottom: .1rem solid var(--text-color);
+}
+
 .CodeMirror-scroll::-webkit-scrollbar {
     display: none;
 }
