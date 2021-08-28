@@ -39,7 +39,7 @@
     --blockquote-color: var(--text-color);
     --blockquote-bg-color: #fdefee;
     --strong-text-color: var(--title-text-color);
-    --h2-underline-bg: var(--title-text-color);
+    --h2-underline-color: var(--title-text-color);
     --horizontal-divider-color: var(--title-text-color);
     --height-light-bg-color: #e7ecf3;
     --yaml-text-color: #777777;
@@ -225,7 +225,7 @@ h2.md-end-block.md-heading:after {
     content: '';
     height: 2px;
     margin-top: 4px;
-    background-color: var(--h2-underline-bg);
+    background-color: var(--h2-underline-color);
     border-radius: 2px;
 }
 

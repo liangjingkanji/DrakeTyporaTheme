@@ -41,12 +41,12 @@
     --outline-active-color: var(--a-text-color);
     --code-block-bg-color: var(--item-hover-bg-color);
     --code-block-text-color: #A9B7C6;
-    --title-text-color: var(--text-color);
+    --title-text-color: #bbc6d2;
     --blockquote-border-color: var(--drake-accent);
     --blockquote-color: var(--text-color);
     --blockquote-bg-color: rgba(25, 25, 49, 0.53);
     --strong-text-color: var(--title-text-color);
-    --h2-underline-bg: var(--title-text-color);
+    --h2-underline-color: var(--title-text-color);
     --horizontal-divider-color: var(--title-text-color);
     --height-light-bg-color: #e7ecf3;
     --yaml-text-color: #676773;
@@ -232,7 +232,7 @@ h2.md-end-block.md-heading:after {
     content: '';
     height: 2px;
     margin-top: 4px;
-    background-color: var(--h2-underline-bg);
+    background-color: var(--h2-underline-color);
     border-radius: 2px;
 }
 
