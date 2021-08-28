@@ -161,6 +161,9 @@ blockquote {
 .md-htmlblock-container a:hover {
     border-bottom: .1rem solid var(--a-text-color);
 }
+a:any-link {
+    color: var(--a-text-color);
+}
 
 img {
     border-left: none;
