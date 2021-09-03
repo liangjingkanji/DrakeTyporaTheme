@@ -37,21 +37,21 @@
 
     --drake-accent: #fcc65c;
     --drake-highlight: #ffcc66;
-    --a-text-color: var(--drake-highlight);
+    --a-color: var(--drake-highlight);
     --variable-color: var(--drake-highlight);
-    --outline-active-color: var(--a-text-color);
+    --outline-active-color: var(--a-color);
     --code-block-bg-color: var(--item-hover-bg-color);
-    --code-block-text-color: var(--text-color);
-    --title-text-color: #cbcdbf;
+    --code-block-color: var(--text-color);
+    --title-color: #cbcdbf;
     --blockquote-border-color: var(--drake-accent);
     --blockquote-color: var(--text-color);
     --blockquote-bg-color: rgba(255, 204, 102, 0.05);
-    --strong-text-color: var(--title-text-color);
-    --h2-underline-color: var(--title-text-color);
-    --horizontal-divider-color: var(--title-text-color);
+    --strong-color: var(--title-color);
+    --h2-underline-color: var(--title-color);
+    --horizontal-divider-color: var(--title-color);
     --height-light-color: var(--drake-highlight);
     --height-light-border-color: var(--drake-highlight);
-    --yaml-text-color: #676773;
+    --yaml-color: #676773;
     --yaml-bg-color: var(--code-block-bg-color);
     --footnotes-bg-color: var(--item-hover-bg-color);
     --footnotes-highlight: #FFD760;
@@ -87,7 +87,7 @@ body {
     border-radius: 2px;
     word-wrap: normal;
     background-color: var(--code-block-bg-color);
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
     border: none;
 }
 
@@ -123,10 +123,10 @@ var {
 }
 .md-rawblock-tooltip.md-rawblock-control {
     border-radius: 2px 2px 0 0;
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
 }
 .md-rawblock-tooltip-name {
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
     opacity: 1;
 }
 
@@ -153,7 +153,7 @@ blockquote {
 }
 
 #write strong {
-    color: var(--strong-text-color);
+    color: var(--strong-color);
     font-weight: bold;
 }
 #write blockquote strong {
@@ -162,18 +162,18 @@ blockquote {
 
 /*link*/
 #write a .md-plain {
-    border-bottom: .1rem solid var(--a-text-color);
+    border-bottom: .1rem solid var(--a-color);
 }
 #write a {
-    color: var(--a-text-color);
+    color: var(--a-color);
     margin: 0 .2rem;
     text-decoration: none;
 }
 .md-htmlblock-container a:hover {
-    border-bottom: .1rem solid var(--a-text-color);
+    border-bottom: .1rem solid var(--a-color);
 }
 a:any-link {
-    color: var(--a-text-color);
+    color: var(--a-color);
 }
 
 img {
@@ -223,7 +223,7 @@ h6 {
     font-weight: bold;
     line-height: 1.4;
     cursor: text;
-    color: var(--title-text-color);
+    color: var(--title-color);
 }
 
 h3.md-focus:before, h4.md-focus:before, h5.md-focus:before, h6.md-focus:before {
@@ -489,7 +489,7 @@ kbd {
     background-color: var(--yaml-bg-color);
     border: 0;
     border-radius: 2px;
-    color: var(--yaml-text-color);
+    color: var(--yaml-color);
     margin-top: 0 !important;
 }
 
@@ -926,7 +926,7 @@ header, .context-menu, .megamenu-content, footer {
     font-size: 14px;
 }
 a.ty-link {
-    color: var(--a-text-color);
+    color: var(--a-color);
     margin: 0 .2rem;
 }
 
@@ -937,7 +937,7 @@ a.ty-link {
  */
 .cm-s-inner.CodeMirror {
     background: var(--code-block-bg-color);
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
 }
 
 .cm-s-inner span.cm-meta {
@@ -957,11 +957,11 @@ a.ty-link {
 }
 
 .cm-s-inner span.cm-variable {
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
 }
 
 .cm-s-inner span.cm-variable-2 {
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
 }
 
 .cm-s-inner span.cm-variable-3 {
@@ -977,7 +977,7 @@ a.ty-link {
 }
 
 .cm-s-inner span.cm-operator {
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
 }
 
 .cm-s-inner span.cm-string {
@@ -1033,13 +1033,13 @@ a.ty-link {
 }
 
 .cm-s-inner span.cm-matchhighlight {
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
     background-color: rgba(50, 89, 48, .7);
     font-weight: normal;
 }
 
 .cm-s-inner span.cm-searching {
-    color: var(--code-block-text-color);
+    color: var(--code-block-color);
     background-color: rgba(61, 115, 59, .7);
     font-weight: normal;
 }
@@ -1077,5 +1077,5 @@ a.ty-link {
 }
 
 .cm-s-inner div.CodeMirror-cursor {
-    border-left: 1px solid var(--code-block-text-color);
+    border-left: 1px solid var(--code-block-color);
 }
