@@ -31,6 +31,7 @@
     --drake-accent: #e95f59;
     --drake-highlight: #d63200;
     --a-text-color: var(--drake-highlight);
+    --variable-color: var(--drake-highlight);
     --outline-active-color: var(--a-text-color);
     --code-block-bg-color: #2b2b2b;
     --code-block-text-color: #A9B7C6;
@@ -86,6 +87,12 @@ body {
 #write code, tt {
     margin: 0 2px;
     color: var(--drake-highlight);
+}
+
+/*variable*/
+var {
+    color: var(--variable-color);
+    font-weight: bold;
 }
 
 /*raw block*/
