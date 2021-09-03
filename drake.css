@@ -42,7 +42,8 @@
     --strong-text-color: var(--title-text-color);
     --h2-underline-color: var(--title-text-color);
     --horizontal-divider-color: var(--title-text-color);
-    --height-light-bg-color: #e7ecf3;
+    --height-light-color: var(--drake-highlight);
+    --height-light-border-color: var(--drake-highlight);
     --yaml-text-color: #777777;
     --yaml-bg-color: #f7f7f7;
     --footnotes-bg-color: #3c3d3e;
@@ -422,10 +423,10 @@ table tr td:last-child {
     padding: 0 5px 0 2px;
 }
 
-/* height light. */
+/* height light */
 #write mark {
-    border: .1em solid var(--drake-highlight);
-    color: var(--drake-highlight);
+    border: .1em solid var(--height-light-border-color);
+    color: var(--height-light-color);
     background-color: transparent;
     padding: .1rem .5rem;
     border-radius: 2rem;
