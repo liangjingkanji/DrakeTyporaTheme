@@ -148,6 +148,9 @@ blockquote {
     color: var(--strong-text-color);
     font-weight: bold;
 }
+#write blockquote strong {
+    color: var(--blockquote-color);
+}
 
 /*link*/
 #write a .md-plain {
