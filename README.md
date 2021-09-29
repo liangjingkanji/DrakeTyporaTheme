@@ -13,8 +13,8 @@
 </p><br>
 
 - 本主题具备 10 种风格, [点击下载主题(click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
-- 如果你喜欢本主题希望您能star本仓库
 - 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
+- 预览截图字体: 英文 [JetBrains Mono](https://www.jetbrains.com/lp/mono/), 中文 [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) 安装方可有预览字体效果
 
 
 ## Customize
