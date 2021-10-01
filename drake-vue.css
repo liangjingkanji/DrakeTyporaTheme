@@ -154,16 +154,15 @@ blockquote {
 }
 
 /*link*/
-#write a .md-plain {
-    border-bottom: .1rem solid var(--a-color);
-}
 #write a {
     color: var(--a-color);
-    margin: 0 .2rem;
     text-decoration: none;
 }
-.md-htmlblock-container a:hover {
+#write a .md-plain, .md-htmlblock-container a:hover {
     border-bottom: .1rem solid var(--a-color);
+}
+[md-inline=link] a {
+    margin: 0 .2rem;
 }
 a:any-link {
     color: var(--a-color);
