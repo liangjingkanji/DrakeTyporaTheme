@@ -78,6 +78,7 @@ body {
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden;
+    line-height: 1.8rem;
 }
 
 /*code block*/
@@ -192,7 +193,6 @@ img {
 }
 
 #write p {
-    line-height: 1.6rem;
     word-spacing: .05rem;
 }
 
@@ -220,7 +220,6 @@ h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
-    line-height: 1.4;
     cursor: text;
     color: var(--title-color);
 }
@@ -484,7 +483,6 @@ kbd {
 #write pre.md-meta-block {
     padding: 1rem;
     font-size: 1rem;
-    line-height: 1.45;
     background-color: var(--yaml-bg-color);
     border: 0;
     border-radius: 2px;
