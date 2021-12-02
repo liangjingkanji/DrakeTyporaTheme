@@ -75,7 +75,7 @@ body {
 }
 
 /*code block*/
-#write .md-fences {
+.md-fences {
     font-size: 1rem;
     padding: 12px !important;
     border-radius: 8px;
