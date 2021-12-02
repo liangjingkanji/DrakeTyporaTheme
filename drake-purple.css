@@ -27,6 +27,7 @@
     --rawblock-edit-panel-bd: var(--code-block-bg-color);
     --item-hover-bg-color: #1d1d26;
     --active-file-bg-color: var(--item-hover-bg-color);
+    --mermaid-theme: night;
 
     --md-char-color: #535455;
     --side-bar-bg-color: var(--bg-color);
