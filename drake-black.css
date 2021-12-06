@@ -19,8 +19,8 @@
     --text-font: var(--monospace); /*default font*/
     --title-font: var(--monospace); /*title font*/
 
-    --bg-color: #212121;
     --text-color: #b3bec4;
+    --bg-color: #212121;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
@@ -29,6 +29,7 @@
     --active-file-bg-color: var(--item-hover-bg-color);
     --mermaid-theme: night;
 
+    --blur-text-color: rgba(179, 190, 196, 0.5);
     --md-char-color: #535455;
     --side-bar-bg-color: var(--bg-color);
     --search-select-bg-color: #ffffff;
@@ -229,6 +230,9 @@ blockquote {
 #write a .md-plain, .md-htmlblock-container a:hover {
     border-bottom: .1rem solid var(--a-color);
 }
+#write a .md-plain, .md-htmlblock-container a:not(.md-focus):not(.md-focus-container):hover {
+    border-bottom: .1rem solid var(--blur-text-color);
+}
 [md-inline=link] a {
     margin: 0 .2rem;
 }
@@ -306,6 +310,9 @@ h2.md-end-block.md-heading:after {
     margin-top: 4px;
     background-color: var(--h2-underline-color);
     border-radius: 2px;
+}
+h2.md-end-block.md-heading:not(.md-focus):not(.md-focus-container):after {
+    background-color: var(--blur-text-color) !important;
 }
 
 h3 {

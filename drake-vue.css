@@ -28,6 +28,7 @@
     --item-hover-bg-color: #E5E5E596;
     --active-file-bg-color: var(--item-hover-bg-color);
 
+    --blur-text-color: rgba(48, 68, 85, 0.5);
     --drake-accent: #31a062;
     --drake-highlight: #d63200;
     --a-color: var(--drake-accent);
@@ -221,6 +222,9 @@ blockquote {
 #write a .md-plain, .md-htmlblock-container a:hover {
     border-bottom: .1rem solid var(--a-color);
 }
+#write a .md-plain, .md-htmlblock-container a:not(.md-focus):not(.md-focus-container):hover {
+    border-bottom: .1rem solid var(--blur-text-color);
+}
 [md-inline=link] a {
     margin: 0 .2rem;
 }
@@ -298,6 +302,9 @@ h2.md-end-block.md-heading:after {
     margin-top: 4px;
     background-color: var(--h2-underline-color);
     border-radius: 2px;
+}
+h2.md-end-block.md-heading:not(.md-focus):not(.md-focus-container):after {
+    background-color: var(--blur-text-color) !important;
 }
 
 h3 {

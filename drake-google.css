@@ -20,6 +20,7 @@
     --title-font: var(--monospace); /*title font*/
 
     --text-color: #202124;
+    --blur-text-color: #c8c8c8;
     --bg-color: #ffffff;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
@@ -28,6 +29,7 @@
     --item-hover-bg-color: #E5E5E596;
     --active-file-bg-color: var(--item-hover-bg-color);
 
+    --blur-text-color: rgba(32, 33, 36, 0.5);
     --drake-accent: #5784ec;
     --drake-highlight: #3a474e;
     --a-color: #1769e0;
@@ -213,6 +215,10 @@ blockquote {
     color: var(--a-color);
     text-decoration: none;
 }
+#write a:not(.md-focus):not(.md-focus-container) {
+    color: var(--a-color);
+    text-decoration: underline;
+}
 [md-inline=link] a {
     margin: 0 .2rem;
 }
@@ -298,6 +304,9 @@ h2.md-end-block.md-heading:after {
     margin-top: 4px;
     background-color: var(--h2-underline-color);
     border-radius: 2px;
+}
+h2.md-end-block.md-heading:not(.md-focus):not(.md-focus-container):after {
+    background-color: var(--blur-text-color) !important;
 }
 
 h3 {
