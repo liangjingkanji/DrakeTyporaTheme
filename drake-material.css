@@ -311,7 +311,7 @@ h2.md-end-block.md-heading:after {
     background-color: var(--h2-underline-color);
     border-radius: 2px;
 }
-h2.md-end-block.md-heading:not(.md-focus):not(.md-focus-container):after {
+.on-focus-mode h2.md-end-block.md-heading:not(.md-focus):not(.md-focus-container):after {
     background-color: var(--blur-text-color) !important;
 }
 
