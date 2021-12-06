@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono'),
+    url('./JetBrainsMono-Regular.woff2') format('woff2');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono'),
+    url('./JetBrainsMono-Italic.woff2') format('woff2');
+    font-display: swap;
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono'),
+    url('./JetBrainsMono-Bold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: local('JetBrains Mono'),
+    url('./JetBrainsMono-BoldItalic.woff2') format('woff2');
+    font-display: swap;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/*Chinese*/
+@font-face{
+    font-family: 'HYZhengYuan';
+    src: local('HYZhengYuan'),
+    url('./HYZhengYuan-55W.ttf') format('truetype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'HYZhengYuan';
+    src: local('HYZhengYuan'),
+    url('./HYZhengYuan-75W.ttf') format('truetype');
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}

@@ -14,7 +14,6 @@
 
 - 本主题具备 10 种风格, [点击下载主题(click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
-- 预览截图字体需要手动安装: 英文 [JetBrains Mono](https://www.jetbrains.com/lp/mono/), 中文 [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915)
 - 主题会不断更新, 建议star本仓库. 欢迎PR提交贡献更多风格的主题
 
 
@@ -43,10 +42,10 @@
 
 
 
-| 推荐字体                                                   | 描述                                           |
-| ---------------------------------------------------------- | ---------------------------------------------- |
-| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/) | JetBrains Mono. 给开发人员的字体               |
-| [Fira Code](https://github.com/tonsky/FiraCode)            | Free monospaced font with programming ligature |
+| 主题字体                                                     | 描述               |
+| ------------------------------------------------------------ | ------------------ |
+| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/)   | 适合开发人员的字体 |
+| [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 汉仪正圆, 中文字体 |
 
 
 ## Install
