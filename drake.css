@@ -224,11 +224,12 @@ blockquote {
     color: var(--a-color);
     text-decoration: none;
 }
-#write a .md-plain, .md-htmlblock-container a:hover {
-    border-bottom: .1rem solid var(--a-color);
-}
-#write a .md-plain, .md-htmlblock-container a:not(.md-focus):not(.md-focus-container):hover {
+.on-focus-mode #write a .md-plain, .on-focus-mode .md-htmlblock-container a:hover {
     border-bottom: .1rem solid var(--blur-text-color);
+}
+#write a .md-plain, .md-htmlblock-container a:hover,
+.on-focus-mode #write .md-focus a .md-plain, .md-focus .md-htmlblock-container a:hover {
+    border-bottom: .1rem solid var(--a-color);
 }
 [md-inline=link] a {
     margin: 0 .2rem;

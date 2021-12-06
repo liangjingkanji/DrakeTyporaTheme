@@ -208,22 +208,19 @@ blockquote {
 }
 
 /*link*/
-#write a .md-plain:hover {
+.on-focus-mode #write a .md-plain:hover, .on-focus-mode .md-htmlblock-container a:hover {
+    border-bottom: .1rem solid var(--blur-text-color);
+}
+#write a .md-plain:hover, .md-htmlblock-container a:hover,
+.on-focus-mode #write .md-focus a .md-plain:hover, .on-focus-mode .md-focus .md-htmlblock-container a:hover {
     border-bottom: .1rem solid var(--a-color);
 }
 #write a {
     color: var(--a-color);
     text-decoration: none;
 }
-#write a:not(.md-focus):not(.md-focus-container) {
-    color: var(--a-color);
-    text-decoration: underline;
-}
 [md-inline=link] a {
     margin: 0 .2rem;
-}
-.md-htmlblock-container a:hover {
-    border-bottom: .1rem solid var(--a-color);
 }
 #write a code, a:any-link {
     color: var(--a-color);
