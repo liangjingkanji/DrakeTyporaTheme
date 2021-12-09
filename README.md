@@ -12,9 +12,10 @@
 <a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master"><img src="https://img.shields.io/badge/Download-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98-brightgreen"/></a>
 </p><br>
 
-- 本主题具备 10 种风格, [点击下载主题(click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
+- 具备 10 种风格, 是Typora所有主题中定制化元素最多的主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
-- 主题会不断更新, 建议star本仓库. 欢迎PR提交贡献更多风格的主题
+- 主题会不断更新, 建议star本仓库 
+- 欢迎PR贡献更多风格的主题
 
 
 ## Customize
