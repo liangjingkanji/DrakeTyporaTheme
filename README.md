@@ -65,11 +65,11 @@
 
 | 主题名称       | 预览图                                                       |
 | ------------ | ------------------------------------------------------------ |
-| drake        | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="500"/> |
-| drake-light  | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/> |
 | drake-vue    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue.png" width="500"/> |
 | drake-juejin    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-juejin.png" width="500"/> |
 | drake-google    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-google.png" width="500"/> |
+| drake        | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="500"/> |
+| drake-light  | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/> |
 | drake-dark   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/> |
 | drake-material   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-material.png" width="500"/> |
 | drake-black   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-black.png" width="500"/> |
