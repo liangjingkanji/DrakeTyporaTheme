@@ -1017,86 +1017,70 @@ a.ty-link {
     Name: IntelliJ IDEA light theme
     From IntelliJ IDEA by JetBrains
  */
+.cm-s-inner.CodeMirror {
+    background: none;
+    color: var(--code-block-color);
+}
 .cm-s-inner span.cm-number {
     color: #4A86E8;
 }
-
 .cm-s-inner span.cm-atom {
     color: #9E880D;
 }
-
 .cm-s-inner span.cm-def {
     color: #00f;
 }
-
 .cm-s-inner span.cm-variable {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-variable-2 {
     color: #00627A;
 }
-
 .cm-s-inner span.cm-variable-3, .cm-s-inner span.cm-type {
     color: #00627A;
 }
-
 .cm-s-inner span.cm-property {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-keyword {
     color: #708;
 }
-
 .cm-s-inner span.cm-operator {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-comment {
     color: #787878;
 }
-
 .cm-s-inner span.cm-string {
     color: #008000;
 }
-
 .cm-s-inner span.cm-string-2 {
     color: #008000;
 }
-
 .cm-s-inner span.cm-qualifier {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-error {
     color: red;
 }
-
 .cm-s-inner span.cm-attribute {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-tag {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-link {
     color: #4A86E8;
 }
-
 .cm-s-inner span.cm-builtin {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-bracket {
     color: var(--code-block-color);
 }
-
 .cm-s-inner .CodeMirror-gutters {
     border-right: 1px solid rgba(120, 120, 120, 0.3);
 }
-
 .cm-s-inner .CodeMirror-linenumber {
     color: #787878;
 }

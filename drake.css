@@ -1019,143 +1019,110 @@ a.ty-link {
     From IntelliJ IDEA by JetBrains
  */
 .cm-s-inner.CodeMirror {
-    background: var(--code-block-bg-color);
+    background: none;
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-meta {
     color: #BBB529;
 }
-
 .cm-s-inner span.cm-number {
     color: #6897BB;
 }
-
 .cm-s-inner span.cm-keyword {
     color: #CC7832;
 }
-
 .cm-s-inner span.cm-def {
     color: #FFD760;
 }
-
 .cm-s-inner span.cm-variable {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-variable-2 {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-variable-3 {
     color: #9876AA;
 }
-
 .cm-s-inner span.cm-type {
     color: #AABBCC;
 }
-
 .cm-s-inner span.cm-property {
     color: #FFC66D;
 }
-
 .cm-s-inner span.cm-operator {
     color: var(--code-block-color);
 }
-
 .cm-s-inner span.cm-string {
     color: #6A8759;
 }
-
 .cm-s-inner span.cm-string-2 {
     color: #6A8759;
 }
-
 .cm-s-inner span.cm-comment {
     color: #787878;
 }
-
 .cm-s-inner span.cm-link {
     color: #CC7832;
 }
-
 .cm-s-inner span.cm-atom {
     color: #CC7832;
 }
-
 .cm-s-inner span.cm-error {
     color: #BC3F3C;
 }
-
 .cm-s-inner span.cm-tag {
     color: #E8BF6A;
 }
-
 .cm-s-inner span.cm-quote {
     color: #a6e22e;
 }
-
 .cm-s-inner span.cm-attribute {
     color: #9876AA;
 }
-
 .cm-s-inner span.cm-qualifier {
     color: #6A8759;
 }
-
 .cm-s-inner span.cm-bracket {
     color: #E8BF6A;
 }
-
 .cm-s-inner span.cm-builtin {
     color: #FF9E59;
 }
-
 .cm-s-inner span.cm-special {
     color: #FF9E59;
 }
-
 .cm-s-inner span.cm-matchhighlight {
     color: #FFFFFF;
     background-color: rgba(50, 89, 48, .7);
     font-weight: normal;
 }
-
 .cm-s-inner span.cm-searching {
     color: #FFFFFF;
     background-color: rgba(61, 115, 59, .7);
     font-weight: normal;
 }
-
 .cm-s-inner .CodeMirror-gutters {
     border-right: 1px solid rgba(120, 120, 120, 0.3);
 }
-
 .cm-s-inner .CodeMirror-linenumber {
     color: #585b5d;
 }
-
 .cm-s-inner .CodeMirror-matchingbracket {
     background-color: #3B514D;
     color: #FFEF28 !important;
 }
-
 .cm-s-inner .CodeMirror-selected {
     background: #214283 !important;
 }
-
 .cm-s-inner .CodeMirror-selectedtext {
     background: #214283 !important;
 }
-
 .cm-s-typora-default .CodeMirror-selectedtext {
     background: var(--select-text-bg-color) !important;
 }
-
 .cm-overlay.CodeMirror-selectedtext {
     background: var(--select-text-bg-color) !important;
 }
-
 .cm-s-inner div.CodeMirror-cursor {
     border-left: 1px solid var(--code-block-color);
 }
