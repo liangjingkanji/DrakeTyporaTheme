@@ -30,22 +30,3 @@
     font-weight: bold;
     font-style: italic;
 }
-
-
-/*Chinese*/
-@font-face{
-    font-family: 'HYZhengYuan';
-    src: local('HYZhengYuan'),
-    url('./HYZhengYuan-55W.ttf') format('truetype');
-    font-display: swap;
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face{
-    font-family: 'HYZhengYuan';
-    src: local('HYZhengYuan'),
-    url('./HYZhengYuan-75W.ttf') format('truetype');
-    font-display: swap;
-    font-weight: bold;
-    font-style: normal;
-}
