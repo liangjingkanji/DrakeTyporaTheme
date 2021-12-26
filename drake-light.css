@@ -386,15 +386,13 @@ h6 code {
     font-size: inherit !important;
 }
 
+p,
 blockquote,
 ul,
 ol,
 dl,
 table {
     margin: 0.8em 0;
-}
-p {
-    margin: 0;
 }
 
 li > ol,
