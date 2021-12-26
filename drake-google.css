@@ -269,11 +269,6 @@ img {
     max-width: 1200px;
 }
 
-#write p {
-    line-height: 1.6rem;
-    word-spacing: .05rem;
-}
-
 #write > ul:first-child,
 #write > ol:first-child {
     margin-top: 30px;
