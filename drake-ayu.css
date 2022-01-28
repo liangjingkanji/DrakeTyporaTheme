@@ -543,6 +543,7 @@ kbd {
     background: transparent;
     color: var(--text-color);
     margin: 0 .4rem;
+    font-family: var(--text-font) !important;
     font-size: .95rem;
     padding: .3em .4em;
     border-radius: .4em;
