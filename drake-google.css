@@ -725,6 +725,16 @@ footer {
 .file-node-content:hover .file-node-open-state {
     visibility: visible;
 }
+.file-node-content {
+    display: flex;
+    align-items: center;
+}
+.file-node-open-state {
+    margin-right: .5rem;
+}
+.file-node-icon{
+    margin-right: .5rem;
+}
 
 #typora-sidebar {
     font-size: 1.1rem;
