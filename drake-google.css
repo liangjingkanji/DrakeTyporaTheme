@@ -737,7 +737,8 @@ footer {
 }
 
 #typora-sidebar {
-    font-size: 1.1rem;
+    font-size: inherit;
+    font-family: var(--title-font);
 }
 
 .sidebar-tabs {
