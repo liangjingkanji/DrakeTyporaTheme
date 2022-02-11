@@ -256,6 +256,9 @@ blockquote {
     color: var(--a-color);
     text-decoration: none;
 }
+#write h2 a .md-plain {
+    border-bottom: .2rem solid var(--a-color);
+}
 .on-focus-mode #write a .md-plain, .on-focus-mode .md-htmlblock-container a:hover {
     border-bottom: .1rem solid var(--blur-text-color);
 }

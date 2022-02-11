@@ -248,6 +248,9 @@ blockquote {
     color: var(--a-color);
     text-decoration: none;
 }
+#write h2 a .md-plain {
+    border-bottom: .2rem solid var(--a-color);
+}
 [md-inline=link] a {
     margin: 0 .2rem;
 }
