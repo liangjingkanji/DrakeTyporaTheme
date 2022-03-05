@@ -892,7 +892,6 @@ div.code-tooltip-content {
     width: 1.6rem;
     margin-left: -2em;
 }
-
 #write .ul-list li.md-task-list-item.task-list-not-done::before {
     content: "";
     background: var(--checkbox-unchecked) 0 0 no-repeat;
@@ -902,6 +901,9 @@ div.code-tooltip-content {
     height: 1.6rem;
     width: 1.6rem;
     margin-left: -2em;
+}
+.task-list-item p {
+    line-height: 1.6rem;
 }
 
 /*insert table*/
