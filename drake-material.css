@@ -745,7 +745,7 @@ footer {
 .file-node-open-state {
     margin-right: .5rem;
 }
-.file-node-icon{
+.file-node-icon {
     margin-right: .5rem;
 }
 
@@ -1054,13 +1054,13 @@ a.ty-link {
     color: #546E7A;
 }
 .cm-s-inner .CodeMirror-line::selection,
-.cm-s-inner .CodeMirror-line>span::selection,
-.cm-s-inner .CodeMirror-line>span>span::selection {
+.cm-s-inner .CodeMirror-line > span::selection,
+.cm-s-inner .CodeMirror-line > span > span::selection {
     background: rgba(128, 203, 196, 0.2);
 }
 .cm-s-inner .CodeMirror-line::-moz-selection,
-.cm-s-inner .CodeMirror-line>span::-moz-selection,
-.cm-s-inner .CodeMirror-line>span>span::-moz-selection {
+.cm-s-inner .CodeMirror-line > span::-moz-selection,
+.cm-s-inner .CodeMirror-line > span > span::-moz-selection {
     background: rgba(128, 203, 196, 0.2);
 }
 .cm-s-inner .cm-keyword {
