@@ -25,8 +25,8 @@
 如果需要自定义字体, 请修改CSS文件`第18行`字体名称列表替换为你想要的字体即可替换全部显示字体, 比如以下
 
 ```css
---monospace: "代码字体", "JetBrains Mono", HYZhengYuan, "Fira Code", Menlo, "Ubuntu Mono", Consolas;
---text-font: "正文字体",  HYZhengYuan;
+--monospace: "代码字体", "JetBrains Mono", "Fira Code", "Cascadia Code", HYZhengYuan;
+--text-font: "正文字体";
 --title-font: "标题字体";
 ```
 
@@ -43,10 +43,12 @@
 
 
 
-| 主题字体                                                     | 描述               |
-| ------------------------------------------------------------ | ------------------ |
-| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/)   | 适合开发人员的字体 |
-| [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 汉仪正圆, 中文字体 |
+| 推荐字体                                                       | 描述                                  |
+|------------------------------------------------------------|-------------------------------------|
+| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/) | 英文字体, 适合开发人员的字体                     |
+| [Fira Code](https://github.com/tonsky/FiraCode)            | 英文字体, 前端开发人员喜欢用的字体                  |
+| [Cacadia Code](https://github.com/microsoft/cascadia-code) | 英文字体, 微软官方字体, Windows Terminal的默认字体 |
+| [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪正圆                          |
 
 
 ## Install
