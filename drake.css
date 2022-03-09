@@ -74,6 +74,10 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    line-height: var(--text-line-height);
+}
+
 /*code block*/
 .md-fences {
     font-size: 1rem;
@@ -83,6 +87,7 @@ body {
     background-color: var(--code-block-bg-color);
     color: var(--code-block-color);
     border: none;
+    line-height: var(--code-block-line-height);
 }
 .on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) *,
 .on-focus-mode .md-fences.md-focus .CodeMirror-code > :not(.CodeMirror-activeline) *,
@@ -388,13 +393,8 @@ h6 code {
     font-size: inherit !important;
 }
 
-p,
-blockquote,
-ul,
-ol,
-dl,
-table {
-    margin: 0.8em 0;
+p, blockquote, ul, ol, dl, table {
+    margin: var(--p-spacing) 0;
 }
 
 li > ol,

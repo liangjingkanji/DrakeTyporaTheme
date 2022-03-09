@@ -14,15 +14,15 @@
 
 - 具备 10 种风格, 是Typora所有主题中定制化元素最多的主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
-- 主题会不断更新, 建议star本仓库 
+- 主题会不断更新, 建议star本仓库
 - 欢迎PR贡献更多风格的主题
-
 
 ## Customize
 
-**设置字体**
+**字体大小**: <kbd>设置界面</kbd> -> <kbd>外观</kbd> -> <kbd>字体大小</kbd> -> <kbd>设置字体大小</kbd>
 
-如果需要自定义字体, 请修改CSS文件`第18行`字体名称列表替换为你想要的字体即可替换全部显示字体, 比如以下
+- 自定义字体请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L35-L37)
+- 行高/段间距请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L38-L40)
 
 ```css
 --monospace: "代码字体", "JetBrains Mono", "Fira Code", "Cascadia Code", HYZhengYuan;
@@ -34,14 +34,11 @@
 2. 如果第一个字体未安装则会使用后续字体
 
 
-
-**字体大小**: <kbd>设置界面</kbd> -> <kbd>外观</kbd> -> <kbd>字体大小</kbd> -> <kbd>设置字体大小</kbd>
-
-
+<br>
 
 > 如果对配色不满意可以打开`*.css`主题文件修改对应变量值, ==本主题可根据全局属性定制字体/配色==
 
-
+<br>
 
 | 推荐字体                                                       | 描述                                  |
 |------------------------------------------------------------|-------------------------------------|

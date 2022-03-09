@@ -74,6 +74,10 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    line-height: var(--text-line-height);
+}
+
 #write {
     background-image: linear-gradient(90deg,rgba(60,10,30,.04) 3%,transparent 0),linear-gradient(1turn,rgba(60,10,30,.04) 3%,transparent 0);
     background-size: 20px 20px;
@@ -89,6 +93,7 @@ body {
     background-color: var(--code-block-bg-color);
     color: var(--code-block-color);
     border: none;
+    line-height: var(--code-block-line-height);
 }
 .on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) *,
 .on-focus-mode .md-fences.md-focus .CodeMirror-code > :not(.CodeMirror-activeline) *,
@@ -397,13 +402,8 @@ h6 code {
     font-size: inherit !important;
 }
 
-p,
-blockquote,
-ul,
-ol,
-dl,
-table {
-    margin: 0.8em 0;
+p, blockquote, ul, ol, dl, table {
+    margin: var(--p-spacing) 0;
 }
 
 li > ol,

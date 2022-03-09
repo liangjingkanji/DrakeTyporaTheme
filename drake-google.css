@@ -75,6 +75,10 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    line-height: var(--text-line-height);
+}
+
 /*code block*/
 .md-fences {
     font-size: 1rem;
@@ -84,6 +88,7 @@ body {
     background-color: var(--code-block-bg-color);
     color: var(--code-block-color);
     border: .1em solid #e8eaed;
+    line-height: var(--code-block-line-height);
 }
 
 /*mermaid*/
@@ -381,13 +386,8 @@ h6 code {
     font-size: inherit !important;
 }
 
-p,
-blockquote,
-ul,
-ol,
-dl,
-table {
-    margin: 0.8em 0;
+p, blockquote, ul, ol, dl, table {
+    margin: var(--p-spacing) 0;
 }
 
 li > ol,
