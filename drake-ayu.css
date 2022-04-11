@@ -404,6 +404,9 @@ li > ol,
 li > ul {
     margin: 0 0;
 }
+li {
+    margin: 0.5em 0;
+}
 
 hr {
     height: 2px;
