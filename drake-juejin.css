@@ -337,12 +337,14 @@ h1 {
     margin-top: 0;
 }
 
+h2 {
+    font-size: 1.8rem;
+}
 h2 .md-plain {
     padding-bottom: .3rem;
     border-bottom: .2rem solid var(--h2-underline-color);
     line-height: 3rem;
 }
-
 .on-focus-mode h2.md-end-block.md-heading:not(.md-focus):not(.md-focus-container):after {
     background-color: var(--blur-text-color) !important;
 }
