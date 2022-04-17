@@ -5,14 +5,14 @@
 
 
 <p align="center">
-<a href="https://github.com/liangjingkanji"><img src="https://img.shields.io/badge/author-天南第一键修-brightgreen"/></a>
 <a href="https://theme.typora.io/theme/Drake"><img src="https://img.shields.io/badge/theme-Typora-orange.svg"/></a>
 <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/license-Apache-blue"/></a>
 <a href="https://jq.qq.com/?_wv=1027&k=vWsXSNBJ"><img src="https://img.shields.io/badge/QQ群-752854893-blue"/></a>
 <a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master"><img src="https://img.shields.io/badge/Download-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98-brightgreen"/></a>
+<a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md"><img src="https://raw.githubusercontent.com/liangjingkanji/Net/master/docs/img/issues.svg"/></a>
 </p><br>
 
-- 具备 10 种风格, 是Typora所有主题中定制化元素最多的主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
+- Typora所有主题中定制化元素最多的主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 - 主题会不断更新, 建议star本仓库
 - 欢迎PR贡献更多风格的主题
@@ -23,15 +23,8 @@
 
 - 自定义字体请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L35-L37)
 - 行高/段间距请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L38-L40)
+- 更多请查看[常见问题](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md)
 
-```css
---monospace: "代码字体", "JetBrains Mono", "Fira Code", "Cascadia Code", HYZhengYuan;
---text-font: "正文字体";
---title-font: "标题字体";
-```
-
-1. 字体可以同时设置多个, 如果第一个字体不支持中文, 则会采用第二个字体的中文
-2. 如果第一个字体未安装则会使用后续字体
 
 
 <br>
