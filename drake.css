@@ -95,6 +95,15 @@ p {
     color: #909090 !important
 }
 
+/*inline latex*/
+.MathJax {
+  font-size: 120% !important;
+}
+/*math-block latex*/
+.md-math-block .MathJax {
+  font-size: 130% !important;
+}
+
 /*mermaid*/
 [id^=mermaidChart] {
     fill: var(--text-color) !important;
