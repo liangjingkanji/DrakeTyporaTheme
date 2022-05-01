@@ -38,4 +38,5 @@
     --text-line-height: 1.6; /*正文行间距*/
     --code-block-line-height: 1.6; /*代码块行间距*/
     --p-spacing: 0.8rem; /*段间距*/
+    --text-size: 12px;
 }

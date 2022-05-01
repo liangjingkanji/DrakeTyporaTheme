@@ -61,7 +61,7 @@
 }
 
 html {
-    font-size: 12px;
+    font-size: var(--text-size);
 }
 
 body {
