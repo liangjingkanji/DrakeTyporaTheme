@@ -2,6 +2,7 @@
 
 - [怎么改变代码块中的<= 和 == 符号的渲染](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/70)
 - [关闭字体连字特性](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/75)
+- [字体加粗不生效](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/86)
 
 ## 自定义主题
 
@@ -17,3 +18,4 @@
 - [修改代码片段内外间距](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/65)
 - [怎样可以把英文字母间距稍宽一点](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/43)
 - [修改正文的左右边距](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/42)
+- [给图片边框添加阴影](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/87)
