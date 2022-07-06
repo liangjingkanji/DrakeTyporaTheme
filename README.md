@@ -29,7 +29,7 @@
 
 <br>
 
-> 如果对配色不满意可以打开`*.css`主题文件修改对应变量值, ==本主题可根据全局属性定制字体/配色==
+> 如果发生符号粘连, 那是主题内置字体JetBrainsMono的特性`ligatures`, 如不喜欢可自行删除: [#75](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/75)
 
 <br>
 
