@@ -33,12 +33,14 @@
 
 <br>
 
-| 推荐字体                                                       | 描述                                  |
-|------------------------------------------------------------|-------------------------------------|
-| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/) | 英文字体, 适合开发人员的字体                     |
-| [Fira Code](https://github.com/tonsky/FiraCode)            | 英文字体, 前端开发人员喜欢用的字体                  |
-| [Cacadia Code](https://github.com/microsoft/cascadia-code) | 英文字体, 微软官方字体, Windows Terminal的默认字体 |
-| [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪正圆                          |
+| 推荐字体                                                         | 描述                                                                                                                      |
+|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/)   | 英文字体, 适合开发人员的字体, 修改版本: [JetBrainsMono-patch](https://github.com/liangjingkanji/JetBrainsMono-patch)                     |
+| [Fira Code](https://github.com/tonsky/FiraCode)              | 英文字体, 前端开发人员喜欢用的字体                                                                                                      |
+| [cascadia-code](https://github.com/microsoft/cascadia-code)  | 英文字体, 微软官方字体, Windows Terminal的默认字体, 修改版本: [cascadia-code-patch](https://github.com/liangjingkanji/cascadia-code-patch) |
+| [PTCode](https://github.com/liangjingkanji/PTCode) | PT Mono 增加连字特性(Ligatures)                                                                                               |
+| [PlexMono](https://github.com/liangjingkanji/PlexMono) | IBM Plex Mono 增加连字特性(Ligatures)                                                                                         |
+| [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪正圆                                                                                                              |
 
 
 ## Install
