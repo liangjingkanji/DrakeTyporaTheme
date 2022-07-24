@@ -1107,7 +1107,7 @@ a.ty-link {
     color: #f07178;
 }
 .cm-s-inner .cm-comment {
-    color: #545454;
+    color: #787878;
 }
 .cm-s-inner .cm-variable {
     color: var(--code-block-color);
