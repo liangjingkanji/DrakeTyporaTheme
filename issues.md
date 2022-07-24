@@ -19,3 +19,4 @@
 - [怎样可以把英文字母间距稍宽一点](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/43)
 - [修改正文的左右边距](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/42)
 - [给图片边框添加阴影](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/87)
+- [修改代码注释颜色](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/94)
