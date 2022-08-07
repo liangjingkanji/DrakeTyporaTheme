@@ -19,7 +19,7 @@
 @include-when-export url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --text-color: rgb(255, 255, 255, 0.87);
+    --text-color: rgba(255, 255, 255, 0.75);
     --bg-color: rgb(26, 26, 26);
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
@@ -44,7 +44,7 @@
     --outline-active-color: var(--title-color);
     --code-block-bg-color: #242424;
     --code-block-color: #A6ACCD;
-    --title-color: #FFFFFFDE;
+    --title-color: rgba(255, 255, 255, 0.85);
     --blockquote-border-color: transparent;
     --blockquote-color: #EBEBEB99;
     --blockquote-bg-color: #242424;
