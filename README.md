@@ -12,7 +12,7 @@
 <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md"><img src="https://raw.githubusercontent.com/liangjingkanji/Net/master/docs/img/issues.svg"/></a>
 </p><br>
 
-- Typora所有主题中定制化元素最多的主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
+- 包含==12种明暗风格==主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
 - 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
 - 主题会不断更新, 建议star本仓库
 - 欢迎PR贡献更多风格的主题
@@ -57,18 +57,20 @@
 
 提供多种配置预览, 点击查看高清大图
 
-| 主题名称       | 预览图                                                       |
-| ------------ | ------------------------------------------------------------ |
-| drake-vue    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue.png" width="500"/> |
-| drake-juejin    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-juejin.png" width="500"/> |
-| drake-google    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-google.png" width="500"/> |
-| drake        | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="500"/> |
-| drake-light  | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/> |
-| drake-dark   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/> |
-| drake-material   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-material.png" width="500"/> |
-| drake-black   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-black.png" width="500"/> |
-| drake-purple | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-purple.png" width="500"/> |
-| drake-ayu    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-ayu.png" width="500"/> |
+| 主题名称           | 预览图                                                                                                                          |
+|----------------|------------------------------------------------------------------------------------------------------------------------------|
+| drake-vue      | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue.png" width="500"/>      |
+| drake-jb       | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-jb.png" width="500"/>       |
+| drake-juejin   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-juejin.png" width="500"/>   |
+| drake-google   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-google.png" width="500"/>   |
+| drake          | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail.png" width="500"/>          |
+| drake-light    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-light.png" width="500"/>    |
+| drake-dark     | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="500"/>     |
+| drake-vue3     | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-vue3.png" width="500"/>     |
+| drake-material | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-material.png" width="500"/> |
+| drake-black    | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-black.png" width="500"/>    |
+| drake-purple   | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-purple.png" width="500"/>   |
+| drake-ayu      | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-ayu.png" width="500"/>      |
 
 
 ## License
