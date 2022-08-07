@@ -482,8 +482,11 @@ ol:last-child {
     margin-bottom: 0;
 }
 
-table {
-    padding: 0;
+.ty-table-edit {
+    margin-top: -1rem !important;
+}
+#write table {
+    margin-top: 1rem ;
     word-break: initial;
     background-color: var(--table-bg-color);
 }
