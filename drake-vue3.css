@@ -255,7 +255,7 @@ blockquote {
     padding: 20px;
     background-color: var(--blockquote-bg-color);
     position: relative;
-    border: 1px solid #ffc517;
+    border: 1px solid #42b883;
 }
 
 #write strong {
