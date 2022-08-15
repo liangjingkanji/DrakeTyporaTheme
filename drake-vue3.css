@@ -51,8 +51,8 @@
     --strong-color: var(--title-color);
     --h2-underline-color: var(--title-color);
     --horizontal-divider-color: var(--title-color);
-    --height-light-color: var(--drake-highlight);
-    --height-light-border-color: var(--drake-highlight);
+    --height-light-color: var(--drake-accent);
+    --height-light-border-color: var(--drake-accent);
     --yaml-color: #676773;
     --yaml-bg-color: var(--code-block-bg-color);
     --footnotes-bg-color: var(--item-hover-bg-color);
