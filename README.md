@@ -12,10 +12,11 @@
 <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md"><img src="https://raw.githubusercontent.com/liangjingkanji/Net/master/docs/img/issues.svg"/></a>
 </p><br>
 
-- 包含==12种明暗风格==主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
-- 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
-- 主题会不断更新, 建议star本仓库
-- 欢迎PR贡献更多风格的主题
+- 12种明暗风格主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
+- 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template),
+  并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
+- 时序图支持友好, 可以使用[mermaid](https://mermaid-js.github.io/mermaid/#/)语法绘制时序图
+- 为保持主题维护更新建议==STAR==本仓库, 也欢迎贡献更多风格主题
 
 ## Customize
 
