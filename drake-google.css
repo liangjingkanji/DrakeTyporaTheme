@@ -93,11 +93,11 @@ p {
 
 /*inline latex*/
 .MathJax {
-  font-size: 120% !important;
+    font-size: 120% !important;
 }
 /*math-block latex*/
 .md-math-block .MathJax {
-  font-size: 130% !important;
+    font-size: 130% !important;
 }
 
 /*mermaid*/
@@ -484,7 +484,7 @@ ol:last-child {
     margin-top: -1rem !important;
 }
 #write table {
-    margin-top: 1rem ;
+    margin-top: 1rem;
     word-break: initial;
     background-color: var(--table-bg-color);
 }

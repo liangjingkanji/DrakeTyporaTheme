@@ -79,7 +79,7 @@ p {
 }
 
 #write {
-    background-image: linear-gradient(90deg,rgba(60,10,30,.04) 3%,transparent 0),linear-gradient(1turn,rgba(60,10,30,.04) 3%,transparent 0);
+    background-image: linear-gradient(90deg, rgba(60, 10, 30, .04) 3%, transparent 0), linear-gradient(1turn, rgba(60, 10, 30, .04) 3%, transparent 0);
     background-size: 20px 20px;
     background-position: 50%;
 }
@@ -103,11 +103,11 @@ p {
 
 /*inline latex*/
 .MathJax {
-  font-size: 120% !important;
+    font-size: 120% !important;
 }
 /*math-block latex*/
 .md-math-block .MathJax {
-  font-size: 130% !important;
+    font-size: 130% !important;
 }
 
 /*mermaid*/
@@ -500,7 +500,7 @@ ol:last-child {
     margin-top: -1rem !important;
 }
 #write table {
-    margin-top: 1rem ;
+    margin-top: 1rem;
     word-break: initial;
     background-color: var(--table-bg-color);
 }
