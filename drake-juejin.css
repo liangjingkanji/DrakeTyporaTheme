@@ -93,7 +93,7 @@ p {
     background-color: var(--code-block-bg-color);
     color: var(--code-block-color);
     border: none;
-    line-height: var(--code-block-line-height);
+    line-height: var(--code-line-height);
 }
 .on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) *,
 .on-focus-mode .md-fences.md-focus .CodeMirror-code > :not(.CodeMirror-activeline) *,
@@ -104,6 +104,9 @@ p {
 /*inline latex*/
 .MathJax {
     font-size: 120% !important;
+}
+.MathJax text, .MathJax use {
+    font-family: var(--latex-font);
 }
 /*math-block latex*/
 .md-math-block .MathJax {
