@@ -445,7 +445,7 @@ li > ul {
 li {
     margin: 0.5em 0;
 }
-ul li {
+ul > li {
     list-style: none;
 }
 #write ul > li:before {
