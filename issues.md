@@ -20,3 +20,5 @@
 - [修改正文的左右边距](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/42)
 - [给图片边框添加阴影](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/87)
 - [修改代码注释颜色](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/94)
+- [标题居中](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/107)
+- [设置图片居左](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/101)
