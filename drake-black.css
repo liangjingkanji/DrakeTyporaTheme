@@ -1168,8 +1168,7 @@ a.ty-link {
     color: #DECB6B;
 }
 .cm-s-inner .cm-error {
-    color: rgba(255, 255, 255, 1.0);
-    background-color: #FF5370;
+    color: #FF5370;
 }
 .cm-s-inner .CodeMirror-matchingbracket {
     text-decoration: underline;
