@@ -362,7 +362,7 @@ h2 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
-h2 .md-plain {
+h2 > .md-plain {
     padding-bottom: .3rem;
     border-bottom: .2rem solid var(--h2-underline-color);
     line-height: 3rem;
