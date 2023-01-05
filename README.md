@@ -30,7 +30,7 @@
 
 <br>
 
-> 如果发生符号粘连, 那是主题内置字体JetBrainsMono的特性`ligatures`, 如不喜欢可自行删除: [#75](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/75)
+> 如果发生符号粘连(例如≠), 那是主题内置字体JetBrainsMono的特性`ligatures`, 如不喜欢可自行删除: [#75](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/75)
 
 <br>
 
