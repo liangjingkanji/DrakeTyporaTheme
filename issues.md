@@ -22,3 +22,5 @@
 - [修改代码注释颜色](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/94)
 - [标题居中](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/107)
 - [设置图片居左](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/101)
+- [导出PDF-TODO任务列表选择框图标消失](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/121)
+- [一级标题居中](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/107)
