@@ -628,6 +628,10 @@ kbd {
     margin-top: 0 !important;
 }
 
+#write .code-tooltip {
+    color: grey;
+}
+
 .mathjax-block > .code-tooltip {
     bottom: .375rem;
 }
