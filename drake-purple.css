@@ -1192,3 +1192,6 @@ a.ty-link {
 .cm-s-inner div.CodeMirror-cursor {
     border-left: 1px solid var(--code-block-color);
 }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header {
+    color: #FFD760;
+}
