@@ -104,6 +104,14 @@ p {
 }
 
 /*mermaid*/
+[id^=mermaidChart] .cluster rect {
+    fill: var(--table-n2-bg-color) !important;
+    stroke: var(--table-border-color) !important;
+}
+[id^=mermaidChart] .clusters span.nodeLabel {
+    color: var(--text-color) !important;
+    line-height: 1.8rem;
+}
 [mermaid-type="journey"] line {
     stroke: #7a7a7a !important;
 }
