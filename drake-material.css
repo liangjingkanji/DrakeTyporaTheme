@@ -219,7 +219,8 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
     fill: var(--bg-color) !important;
 }
 .md-diagram-panel-preview .edgeLabel span { /*条件文字*/
-    color: var(--text-color);
+    color: var(--text-color) !important;
+    background: var(--bg-color) !important;
 }
 .md-diagram-panel-preview .node rect,
 .md-diagram-panel-preview .node circle,
