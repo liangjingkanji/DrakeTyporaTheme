@@ -1,5 +1,11 @@
 <p align="center">
-<a href="https://typora.io/"><img src="https://i.imgur.com/3U8bJOE.png" alt="image-20210710130755511" width="150" /></a>
+  <a href="https://typora.io/"><img src="https://i.imgur.com/3U8bJOE.png" alt="image-20210710130755511" width="150" /></a>
+  <br>
+  <br>
+  <a href="https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master">下载</a>
+  | <a href="https://theme.typora.io/theme/Drake/">官网</a>
+  | <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md">自定义</a>
+  <br>
 </p>
 
 
@@ -12,19 +18,21 @@
 <a href="https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md"><img src="https://raw.githubusercontent.com/liangjingkanji/Net/master/docs/img/issues.svg"/></a>
 </p><br>
 
-- 12种明暗风格主题: [点击下载主题(Click download theme)](https://codeload.github.com/liangjingkanji/DrakeTyporaTheme/zip/refs/heads/master)
-- 可以使用本主题制作优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template),
-  并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
-- 时序图支持友好, 可以使用[mermaid](https://mermaid-js.github.io/mermaid/#/)语法绘制时序图
-- 为保持主题维护更新建议==STAR==本仓库, 也欢迎贡献更多风格主题
+- 可以生成优雅的[简历模板](https://github.com/liangjingkanji/Resume-Template), 并可部署为静态网页[在线简历](https://liangjingkanji.github.io/Resume-Template/)
+- 如果想收到主题更新通知请==Watch==本仓库
+- 欢迎为本项目提供更多风格主题
 
-## Customize
+
+
+## 自定义
 
 **字体大小**: <kbd>设置界面</kbd> -> <kbd>外观</kbd> -> <kbd>字体大小</kbd> -> <kbd>设置字体大小</kbd>
 
+
+
 - 自定义字体请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L35-L37)
 - 行高/段间距请编辑此处 [font.css](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/drake/font.css#L38-L40)
-- 更多请查看[常见问题](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md)
+- 更多自定义请查看[常见问题](https://github.com/liangjingkanji/DrakeTyporaTheme/blob/master/issues.md)
 
 
 
@@ -44,7 +52,7 @@
 | [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪正圆                                                                                                              |
 
 
-## Install
+## 安装
 
 - [x] 首先确定已安装[Typora](https://typora.io/)
 
@@ -54,7 +62,7 @@
 
 
 
-## Preview
+## 预览
 
 提供多种配置预览, 点击查看高清大图
 
