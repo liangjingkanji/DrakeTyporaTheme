@@ -785,6 +785,9 @@ footer {
 }
 
 /*sidebar*/
+.file-library-node.file-tree-node.file-node-root {
+    font-size: 1.1rem;
+}
 .file-node-content:hover .file-node-icon,
 .file-node-content:hover .file-node-open-state {
     visibility: visible;
