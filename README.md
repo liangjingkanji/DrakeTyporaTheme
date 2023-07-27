@@ -44,14 +44,15 @@
 
 <br>
 
-| 推荐字体                                                     | 描述                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/)   | 英文字体, 适合开发人员的字体. 作者修改版本: [JetBrainsMono Patch](https://github.com/liangjingkanji/JetBrainsMono-patch) |
-| [Fira Code](https://github.com/tonsky/FiraCode)              | 英文字体, 前端开发人员喜欢用的字体                           |
+| 推荐字体                                                     | 描述                                                                                                                        |
+| ------------------------------------------------------------ |---------------------------------------------------------------------------------------------------------------------------|
+| [JetBrains Mono](https://www.jetbrains.com/zh-cn/lp/mono/)   | 英文字体, 适合开发人员的字体. 作者修改版本: [JetBrainsMono Patch](https://github.com/liangjingkanji/JetBrainsMono-patch)                     |
+| [Fira Code](https://github.com/tonsky/FiraCode)              | 英文字体, 前端开发人员喜欢用的字体                                                                                                        |
 | [Cascadia Code](https://github.com/microsoft/cascadia-code)  | 英文字体, 微软官方字体, Windows Terminal的默认字体. 作者修改版本: [Cascadia Code Patch](https://github.com/liangjingkanji/cascadia-code-patch) |
-| [PTCode](https://github.com/liangjingkanji/PTCode)           | PT Mono 增加连字特性(Ligatures)                              |
-| [PlexMono](https://github.com/liangjingkanji/PlexMono)       | IBM Plex Mono 增加连字特性(Ligatures)                        |
-| [HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪正圆                                           |
+| [PTCode](https://github.com/liangjingkanji/PTCode)           | PT Mono 增加连字特性(Ligatures)                                                                                                 |
+| [PlexMono](https://github.com/liangjingkanji/PlexMono)       | IBM Plex Mono 增加连字特性(Ligatures)                                                                                           |
+| [Iosevka](https://github.com/be5invis/Iosevka)/[Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic) | Iosevka/更紗黑體, 超窄字间距(稍微过窄)<br />Windows渲染效果明显(希望各位敦促作者将Iosevka其他风格整和进去)                                                    |
+| [HYYouYuan](https://www.hanyi.com.cn/productdetail?id=10875)/[HYZhengYuan](http://www.hanyi.com.cn/productdetail?id=2915) | 中文字体, 汉仪有圆/汉仪正圆                                                                                                           |
 
 
 ## 安装
