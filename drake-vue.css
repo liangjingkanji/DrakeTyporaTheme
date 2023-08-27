@@ -1152,3 +1152,6 @@ a.ty-link {
 .cm-s-inner .CodeMirror-linenumber {
     color: #787878;
 }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header {
+    font-weight: normal;
+}
