@@ -118,6 +118,10 @@ p {
     fill: var(--table-n2-bg-color) !important;
     stroke: var(--table-border-color) !important;
 }
+[id^=mermaidChart] .grid .tick text,
+[id^=mermaidChart] .titleText {
+    fill: var(--text-color) !important;
+}
 [id^=mermaidChart] .clusters span.nodeLabel {
     color: var(--text-color) !important;
     line-height: 1.8rem;
