@@ -304,7 +304,7 @@ blockquote {
     border-left: none;
 }
 
-#write strong {
+strong {
     color: var(--strong-color);
     font-weight: bold;
 }

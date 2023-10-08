@@ -310,7 +310,7 @@ blockquote {
     border: 1px solid #42b883;
 }
 
-#write strong {
+strong {
     color: var(--strong-color);
     font-weight: bold;
 }
