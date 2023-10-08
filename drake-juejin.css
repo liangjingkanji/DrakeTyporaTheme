@@ -798,7 +798,7 @@ footer {
 
 /*sidebar*/
 .file-library-node.file-tree-node.file-node-root {
-    font-size: 1.1rem;
+    font-size: var(--file-tree-text-size);
 }
 .file-node-content:hover .file-node-icon,
 .file-node-content:hover .file-node-open-state {
@@ -834,7 +834,7 @@ footer {
 }
 
 .outline-item {
-    font-size: 1rem;
+    font-size: var(--toc-text-size);
 }
 
 /*footnotes mark*/
