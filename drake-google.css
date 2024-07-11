@@ -727,6 +727,13 @@ kbd {
     margin-top: 1px;
 }
 
+/*export background*/
+.export-detail,
+.export-item.active,
+.export-items-list-control {
+    background: var(--active-file-bg-color) !important;
+}
+
 /*search input*/
 .form-control {
     border: none;
