@@ -744,6 +744,12 @@ kbd {
     background: var(--active-file-bg-color) !important;
 }
 
+/*source code mode*/
+.cm-s-typora-default .CodeMirror-activeline-background,
+.typora-sourceview-on #toggle-sourceview-btn {
+    background: var(--active-file-bg-color);
+}
+
 /*search input*/
 .form-control {
     border: none;
